@@ -1,0 +1,125 @@
+INFO         | Android emulator version 36.6.11.0 (build_id 15507667) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /Users/ray/Library/Android/sdk/system-images/android-36/default/arm64-v8a/
+INFO         | Guest usage of host flag 'VulkanVirtualQueue' will be ignored.
+INFO         | Increasing RAM size to 2560MB
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:lavapipe gles_mode_selected:swangle
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `BoxEcho_API_36` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `BoxEcho_API_36` are met
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_default_environment_selected() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_none_selected() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_custom_image_selected() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_custom_video_selected() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_custom_360_image_selected() (:0, )
+INFO         | Storing crashdata in: /tmp/android-ray/emu-crash-36.6.11.db, detection is enabled for process: 7390
+INFO         | Initializing gfxstream backend
+INFO         | startOpenglesRendererImpl: gpu info
+INFO         | 
+INFO         | initIcdPaths: ICD set to 'lavapipe', using Lavapipe ICD
+INFO         | Setting ICD filenames for the loader = /Users/ray/Library/Android/sdk/emulator/lib64/vulkan/lvp_icd.json
+INFO         | SharedLibrary::open for [/Users/ray/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]
+INFO         | Added library: /Users/ray/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib
+INFO         | Enabling Vulkan portability.
+INFO         | Selecting Vulkan device: llvmpipe (LLVM 21.1.4, 128 bits), Version: 1.4.330
+INFO         | Using Vulkan externalMemoryMode: OpaqueFd for VkEmulation
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         |     guestVulkanMaxApiVersion: 1.3.0
+INFO         |     enableProtectedMemoryEmulation: false
+INFO         | Graphics Adapter Vendor Google (Google Inc. (Google))
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_EXT_clip_cull_distance 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAANWDzbaDYuZ72lRP6h6o7izqVh/mg+LttGH6k6h67r4xDQ1JL7VLzulqhdVE6HrR8lO5sKz3Locoaq5c8XnOzA710abutZWmHzWauOSHnyQBd3NodbtPyhM2sLEAse+STb55lhf+yqIiTsjz52FG6JQP7PYPkuMNTKPUFEzwarkK8hhHxgkPrOpfBbsalYhftHadLi+by+OsdJcwgtJCYH77Wu4XWIR4DlDf+09v/gMvn/Fn6CCOpWbf2M1J6NYU39E2YXm13tbTI3EM+/W3K5Can3rsm8mtFZMLOEMXX958w8HeqSvXXX/EXrtU1F3nPJxUbsl3lF+l6t8KMLD1n/8V08aw9y+UkDJH7k9sp+AYdiAHMR8FZXjU8V4w1K10pEtDX82kkHCwIVJDA/LVx/o6AmZ667H1kX4mZAue4vl9YqFrIvRnSLXPV1OCM3v/0N7Rpa7FUTNEoTh0srpS0mj3h9fSAipzbc3yp87jxzem7nnAEjkCHpPlb46HU9jp39zq33zuMfTI5NuQ9ik0FoJBkHSYTYu/g+wnQOfv0+k3zh5HYXzDOCoQHxci6SSbTaLg8J4IpNgmH3o6yM03A781QPRQ24oFcFIWwg3vR0Hiscd+GZVJ5YaaGguR2umtEfLc2coePvnMIQc86CEpVIQ6cV9rOXs9/4uQvvhgvxovlQFFRwEAAQA= ray@unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=a003600.virtio_mmio
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAANWDzbaDYuZ72lRP6h6o7izqVh/mg+LttGH6k6h67r4xDQ1JL7VLzulqhdVE6HrR8lO5sKz3Locoaq5c8XnOzA710abutZWmHzWauOSHnyQBd3NodbtPyhM2sLEAse+STb55lhf+yqIiTsjz52FG6JQP7PYPkuMNTKPUFEzwarkK8hhHxgkPrOpfBbsalYhftHadLi+by+OsdJcwgtJCYH77Wu4XWIR4DlDf+09v/gMvn/Fn6CCOpWbf2M1J6NYU39E2YXm13tbTI3EM+/W3K5Can3rsm8mtFZMLOEMXX958w8HeqSvXXX/EXrtU1F3nPJxUbsl3lF+l6t8KMLD1n/8V08aw9y+UkDJH7k9sp+AYdiAHMR8FZXjU8V4w1K10pEtDX82kkHCwIVJDA/LVx/o6AmZ667H1kX4mZAue4vl9YqFrIvRnSLXPV1OCM3v/0N7Rpa7FUTNEoTh0srpS0mj3h9fSAipzbc3yp87jxzem7nnAEjkCHpPlb46HU9jp39zq33zuMfTI5NuQ9ik0FoJBkHSYTYu/g+wnQOfv0+k3zh5HYXzDOCoQHxci6SSbTaLg8J4IpNgmH3o6yM03A781QPRQ24oFcFIWwg3vR0Hiscd+GZVJ5YaaGguR2umtEfLc2coePvnMIQc86CEpVIQ6cV9rOXs9/4uQvvhgvxovlQFFRwEAAQA= ray@unknown
+INFO         |   androidboot.qemu.avd_name=BoxEcho_API_36
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4206592
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1080x2400
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X6X11X0
+INFO         |   androidboot.vbmeta.digest=1a759cc54d5b9866fccc723e8048c021930dea212b3f85aad7e5428953efb5d7
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6848
+INFO         |   androidboot.veritymode=enforcing
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: /Users/ray/Library/Android/sdk/emulator/lib/emulator_access.json
+INFO         | The active JSON Web Key Sets can be found here: /Users/ray/Library/Caches/TemporaryItems/avd/running/7390/jwks/27ee1eef-a78b-4d06-834a-31c08bb5915f/active.jwk
+INFO         | Scanning /Users/ray/Library/Caches/TemporaryItems/avd/running/7390/jwks/27ee1eef-a78b-4d06-834a-31c08bb5915f for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: /Users/ray/Library/Caches/TemporaryItems/avd/running/pid_7390.ini
+INFO         | Successfully initialized netsim WiFi
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+INFO         | setDisplayActiveConfig: id:0, 1080x2400
+INFO         | emulatorSetupEnvironment: Environment scene is not required
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `BoxEcho_API_36` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `BoxEcho_API_36` are met
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=1
+INFO         | Guest Angle is still unstable for API > 35.
+INFO         | Created extended window in 86.778ms
+INFO         | Loading snapshot 'default_boot'...
+WARNING      | Device 'encrypt' does not have the requested snapshot 'default_boot'
+
+WARNING      | Failed to load snapshot 'default_boot'
+INFO         | Boot completed in 21321 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+ERROR        | bad color buffer handle 81
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=307.679,373.567 gbl=307.679,373.567 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-307.679,-373.567 last=-307.679,-373.567 Δ 307.679,373.567) : no target window (:0, )
+WARNING      | Downloaded protobuf file is corrupt.
+ERROR        | Failed to find ColorBuffer: 123
+ERROR        | Failed to find ColorBuffer: 158
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=270.331,572.308 gbl=270.331,572.308 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-270.331,-572.308 last=-270.331,-572.308 Δ 270.331,572.308) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=410.332,163.305 gbl=410.332,163.305 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-410.332,-163.305 last=-410.332,-163.305 Δ 410.332,163.305) : no target window (:0, )
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=326.048,660.591 gbl=326.048,660.591 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-326.048,-660.591 last=-326.048,-660.591 Δ 326.048,660.591) : no target window (:0, )
+ERROR        | Failed to find ColorBuffer: 176
+INFO         | Warning: skipping QEventPoint(id=1 ts=0 pos=0,0 scn=359.607,289.287 gbl=359.607,289.287 Released ellipse=(1x1 ∡ 0) vel=0,0 press=-359.607,-289.287 last=-359.607,-289.287 Δ 359.607,289.287) : no target window (:0, )
+ERROR        | Failed to find ColorBuffer: 208

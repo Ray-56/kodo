@@ -1,0 +1,41 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart
+00:00 +0: native layouts 390.0x844.0 at 100.0% text
+LAYOUT seeded
+LAYOUT checkpoint
+LAYOUT checkpoint
+LAYOUT checkpoint
+LAYOUT checkpoint
+LAYOUT checkpoint
+LAYOUT disposed
+LAYOUT closing
+unhandled error during finalization of test:
+/Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart
+TestDeviceException(Shell subprocess terminated by ^C (SIGINT, -2).)
+#0      FlutterTesterTestDevice.finished (package:flutter_tools/src/test/flutter_tester_device.dart:252:5)
+<asynchronous suspension>
+#1      FlutterTesterTestDevice.kill (package:flutter_tools/src/test/flutter_tester_device.dart:234:5)
+<asynchronous suspension>
+#2      FlutterPlatform._startTest.<anonymous closure> (package:flutter_tools/src/test/flutter_platform.dart:690:9)
+<asynchronous suspension>
+#3      FlutterPlatform._startTest.finalize (package:flutter_tools/src/test/flutter_platform.dart:592:11)
+<asynchronous suspension>
+#4      asyncGuard.<anonymous closure> (package:flutter_tools/src/base/async_guard.dart:108:24)
+<asynchronous suspension>
+
+unhandled error during finalization of test:
+/Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart
+PathNotFoundException: Deletion failed, path = '/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/flutter_tools.9gvZBC/flutter_test_listener.4nECde' (OS Error: No such file or directory, errno = 2)
+#0      _Directory._deleteSync (dart:io/directory_impl.dart:216:7)
+#1      FileSystemEntity.deleteSync (dart:io/file_system_entity.dart:425:7)
+#2      ForwardingFileSystemEntity.deleteSync (package:file/src/forwarding/forwarding_file_system_entity.dart:70:16)
+#3      ErrorHandlingDirectory.deleteSync.<anonymous closure> (package:flutter_tools/src/base/error_handling_io.dart:451:22)
+#4      _runSync (package:flutter_tools/src/base/error_handling_io.dart:552:14)
+#5      ErrorHandlingDirectory.deleteSync (package:flutter_tools/src/base/error_handling_io.dart:450:12)
+#6      FlutterPlatform._createListenerDart.<anonymous closure> (package:flutter_tools/src/test/flutter_platform.dart:787:15)
+#7      FlutterPlatform._startTest.finalize (package:flutter_tools/src/test/flutter_platform.dart:592:26)
+<asynchronous suspension>
+#8      asyncGuard.<anonymous closure> (package:flutter_tools/src/base/async_guard.dart:108:24)
+<asynchronous suspension>
+
+00:48 +0: native layouts 390.0x844.0 at 100.0% text - did not complete [E]
+00:48 +0: Some tests failed.

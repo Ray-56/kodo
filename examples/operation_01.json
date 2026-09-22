@@ -1,0 +1,15 @@
+{
+  "op_id": "00000000-0000-4000-8000-0000000003e9",
+  "seq": 1,
+  "kind": "project.put",
+  "entity_id": "00000000-0000-4000-8000-000000000001",
+  "payload": {
+    "name": "俯卧撑",
+    "unit": "个",
+    "icon_key": "dumbbell",
+    "quick_amount": 10,
+    "archived": false,
+    "created_at_utc_ms": 1788228000000,
+    "updated_at_utc_ms": 1788228000000
+  }
+}

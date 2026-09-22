@@ -1,0 +1,74 @@
+Flutter failed to run "/Applications/Android Studio.app/Contents/jre/Contents/Home/bin/java -version".
+The binary was built with the incorrect architecture to run on this machine.
+If you are on an ARM Apple Silicon Mac, Flutter requires the Rosetta translation environment. Try running:
+  sudo softwareupdate --install-rosetta --agree-to-license
+
+
+#0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+#1      _throwFileSystemException (package:flutter_tools/src/base/error_handling_io.dart:828:3)
+#2      _handleMacOSException (package:flutter_tools/src/base/error_handling_io.dart:761:5)
+#3      _runSync (package:flutter_tools/src/base/error_handling_io.dart:577:7)
+#4      ErrorHandlingProcessManager.runSync (package:flutter_tools/src/base/error_handling_io.dart:678:12)
+#5      _DefaultProcessUtils.runSync (package:flutter_tools/src/base/process.dart:484:51)
+#6      AndroidStudio._initAndValidate (package:flutter_tools/src/android/android_studio.dart:562:39)
+#7      new AndroidStudio (package:flutter_tools/src/android/android_studio.dart:46:5)
+#8      AndroidStudio.fromMacOSBundle (package:flutter_tools/src/android/android_studio.dart:96:12)
+#9      AndroidStudio._allMacOS.<anonymous closure> (package:flutter_tools/src/android/android_studio.dart:344:34)
+#10     MappedListIterable.elementAt (dart:_internal/iterable.dart:442:31)
+#11     ListIterator.moveNext (dart:_internal/iterable.dart:371:26)
+#12     WhereTypeIterator.moveNext (dart:_internal/iterable.dart:904:20)
+#13     new _GrowableList._ofOther (dart:core-patch/growable_array.dart:207:26)
+#14     new _GrowableList.of (dart:core-patch/growable_array.dart:156:26)
+#15     new List.of (dart:core-patch/array_patch.dart:39:18)
+#16     Iterable.toList (dart:core/iterable.dart:517:7)
+#17     AndroidStudio._allMacOS (package:flutter_tools/src/android/android_studio.dart:355:10)
+#18     AndroidStudio.allInstalled (package:flutter_tools/src/android/android_studio.dart:276:34)
+#19     AndroidStudio.latestValid (package:flutter_tools/src/android/android_studio.dart:233:41)
+#20     AppContext._generateIfNecessary.<anonymous closure> (package:flutter_tools/src/base/context.dart:108:42)
+#21     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#22     AppContext._generateIfNecessary (package:flutter_tools/src/base/context.dart:95:20)
+#23     AppContext.get (package:flutter_tools/src/base/context.dart:125:32)
+#24     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#25     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#26     androidStudio (package:flutter_tools/src/globals.dart:73:45)
+#27     runInContext.<anonymous closure> (package:flutter_tools/src/context_runner.dart:256:32)
+#28     AppContext._generateIfNecessary.<anonymous closure> (package:flutter_tools/src/base/context.dart:108:42)
+#29     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#30     AppContext._generateIfNecessary (package:flutter_tools/src/base/context.dart:95:20)
+#31     AppContext.get (package:flutter_tools/src/base/context.dart:125:32)
+#32     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#33     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#34     java (package:flutter_tools/src/globals.dart:298:27)
+#35     runInContext.<anonymous closure> (package:flutter_tools/src/context_runner.dart:110:23)
+#36     AppContext._generateIfNecessary.<anonymous closure> (package:flutter_tools/src/base/context.dart:108:42)
+#37     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#38     AppContext._generateIfNecessary (package:flutter_tools/src/base/context.dart:95:20)
+#39     AppContext.get (package:flutter_tools/src/base/context.dart:125:32)
+#40     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#41     AppContext.get (package:flutter_tools/src/base/context.dart:123:23)
+#42     androidLicenseValidator (package:flutter_tools/src/android/android_workflow.dart:26:65)
+#43     DoctorCommand.runCommand (package:flutter_tools/src/commands/doctor.dart:62:36)
+#44     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:1938:12)
+<asynchronous suspension>
+#45     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1590:27)
+<asynchronous suspension>
+#46     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#47     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#48     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:496:9)
+<asynchronous suspension>
+#49     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#50     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+<asynchronous suspension>
+#51     FlutterCommandRunner.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:307:33)
+<asynchronous suspension>
+#52     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+<asynchronous suspension>
+#53     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#54     main (package:flutter_tools/executable.dart:103:3)
+<asynchronous suspension>
+
+

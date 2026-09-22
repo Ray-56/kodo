@@ -1,0 +1,23 @@
+{
+  "mode": "local",
+  "trials": [
+    {
+      "same_apk_force_stop_relaunch": true,
+      "host_launch_to_verified_ui_ms": 3044.88,
+      "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 2173\nWaitTime: 2177\nComplete",
+      "before": {
+        "projects": 1,
+        "entries": 1,
+        "amount": 10,
+        "pending": 2
+      },
+      "after": {
+        "projects": 1,
+        "entries": 1,
+        "amount": 10,
+        "pending": 2
+      }
+    }
+  ],
+  "timing_note": "Host stopwatch includes adb launch and polling overhead; process cold, filesystem caches retained."
+}

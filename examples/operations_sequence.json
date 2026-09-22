@@ -1,0 +1,76 @@
+{
+  "operations": [
+    {
+      "op_id": "00000000-0000-4000-8000-0000000003e9",
+      "seq": 1,
+      "kind": "project.put",
+      "entity_id": "00000000-0000-4000-8000-000000000001",
+      "payload": {
+        "name": "俯卧撑",
+        "unit": "个",
+        "icon_key": "dumbbell",
+        "quick_amount": 10,
+        "archived": false,
+        "created_at_utc_ms": 1788228000000,
+        "updated_at_utc_ms": 1788228000000
+      }
+    },
+    {
+      "op_id": "00000000-0000-4000-8000-0000000003ea",
+      "seq": 2,
+      "kind": "entry.add",
+      "entity_id": "00000000-0000-4000-8000-000000000065",
+      "payload": {
+        "project_id": "00000000-0000-4000-8000-000000000001",
+        "amount": 20,
+        "occurred_at_utc_ms": 1789085520000,
+        "utc_offset_minutes": 480,
+        "local_date": "2026-09-11"
+      }
+    },
+    {
+      "op_id": "00000000-0000-4000-8000-0000000003eb",
+      "seq": 3,
+      "kind": "entry.add",
+      "entity_id": "00000000-0000-4000-8000-000000000066",
+      "payload": {
+        "project_id": "00000000-0000-4000-8000-000000000001",
+        "amount": 10,
+        "occurred_at_utc_ms": 1789101000000,
+        "utc_offset_minutes": 480,
+        "local_date": "2026-09-11"
+      }
+    },
+    {
+      "op_id": "00000000-0000-4000-8000-0000000003ec",
+      "seq": 4,
+      "kind": "entry.void",
+      "entity_id": "00000000-0000-4000-8000-000000000066",
+      "payload": {
+        "voided_at_utc_ms": 1789101060000
+      }
+    }
+  ],
+  "expected_after_each": [
+    {
+      "last_seq": 1,
+      "amount_total": 0,
+      "entry_count": 0
+    },
+    {
+      "last_seq": 2,
+      "amount_total": 20,
+      "entry_count": 1
+    },
+    {
+      "last_seq": 3,
+      "amount_total": 30,
+      "entry_count": 2
+    },
+    {
+      "last_seq": 4,
+      "amount_total": 20,
+      "entry_count": 1
+    }
+  ]
+}

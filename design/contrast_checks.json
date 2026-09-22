@@ -1,0 +1,26 @@
+[
+  {
+    "foreground": "text",
+    "background": "background",
+    "ratio": 14.0462,
+    "meets_4_5": true
+  },
+  {
+    "foreground": "textSecondary",
+    "background": "surface",
+    "ratio": 4.9748,
+    "meets_4_5": true
+  },
+  {
+    "foreground": "surface",
+    "background": "primary",
+    "ratio": 6.2252,
+    "meets_4_5": true
+  },
+  {
+    "foreground": "error",
+    "background": "surface",
+    "ratio": 6.8104,
+    "meets_4_5": true
+  }
+]

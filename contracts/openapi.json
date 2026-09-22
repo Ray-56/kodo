@@ -1,0 +1,939 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Kodo MVP Single-Installation Mirror API",
+    "version": "0.1.0",
+    "description": "Normative handoff contract. No working Flutter or Rust service is included. Private MVP: local-first, single installation, no account recovery or multi-device merge. Decisions verified 2026-09-11; implementation dependency versions must be locked in M0."
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8080",
+      "description": "Development only; production requires HTTPS."
+    }
+  ],
+  "security": [
+    {
+      "installationBearer": []
+    }
+  ],
+  "paths": {
+    "/health/live": {
+      "get": {
+        "operationId": "liveness",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Process is alive.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health/ready": {
+      "get": {
+        "operationId": "readiness",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Migrations complete and DB readable.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unavailable.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/installations": {
+      "post": {
+        "operationId": "registerInstallation",
+        "security": [],
+        "description": "Idempotent registration using credentials generated and saved on-device. Same ID and secret returns 200; wrong secret 401; revoked ID 410. Never log request body.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Registration"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrationResult"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Same credentials already registered.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RegistrationResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Credential mismatch",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "410": {
+            "description": "Revoked installation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Temporarily unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/operations": {
+      "post": {
+        "operationId": "applyOperation",
+        "description": "One immutable operation per request. Server must atomically commit the domain mutation, receipt and last_seq. Duplicate detection precedes domain validation. See docs/03_sync_protocol.md for complete precedence.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Operation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Applied exactly once or acknowledged duplicate.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OperationAck"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing/invalid credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Sequence gap or operation identity mismatch",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "410": {
+            "description": "Revoked installation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Body too large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid business operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited; Retry-After seconds",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database busy/unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/snapshot": {
+      "get": {
+        "operationId": "getSnapshot",
+        "description": "Authenticated, transaction-consistent full server mirror, including voided entries and archived projects. Diagnostics/export only, not an automatic pull or a cross-device restore API. Stream or cap memory.",
+        "responses": {
+          "200": {
+            "description": "Consistent snapshot.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Snapshot"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing/invalid credential",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "410": {
+            "description": "Revoked installation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Temporarily unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/installations/current": {
+      "delete": {
+        "operationId": "deleteInstallationData",
+        "description": "Delete projects, entries and receipts; retain only a minimal anonymous revocation record. Same valid secret on revoked installation returns 204. Unknown ID also returns 204 with no mutation. Wrong secret on existing ID returns 401. Deletion is serialized with operations.",
+        "responses": {
+          "204": {
+            "description": "Deleted, already deleted, or nonexistent installation."
+          },
+          "401": {
+            "description": "Invalid credential for an existing installation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Temporarily unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "installationBearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "<installation_id>.<base64url_secret>",
+        "description": "Do not embed a shared token in the app. ID and secret are generated on-device."
+      }
+    },
+    "schemas": {
+      "ProjectPayload": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40,
+            "description": "Trim before enqueue; Unicode scalar count; reject controls and all-whitespace."
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8,
+            "description": "Immutable after any entry, including voided entries, exists."
+          },
+          "icon_key": {
+            "type": "string",
+            "enum": [
+              "dumbbell",
+              "book",
+              "leaf",
+              "code",
+              "droplet",
+              "check"
+            ]
+          },
+          "quick_amount": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9999
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "created_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          },
+          "updated_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          }
+        },
+        "required": [
+          "name",
+          "unit",
+          "icon_key",
+          "quick_amount",
+          "archived",
+          "created_at_utc_ms",
+          "updated_at_utc_ms"
+        ]
+      },
+      "EntryPayload": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "project_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "amount": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 999999,
+            "description": "Positive integer literal on the wire. Reject 1.0, 1e0, booleans and numeric strings in the typed decoder; JSON Schema alone cannot distinguish all lexical encodings."
+          },
+          "occurred_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          },
+          "utc_offset_minutes": {
+            "type": "integer",
+            "minimum": -840,
+            "maximum": 840
+          },
+          "local_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date at occurrence, equal to UTC timestamp + captured offset. Never regroup old entries in a new timezone."
+          }
+        },
+        "required": [
+          "project_id",
+          "amount",
+          "occurred_at_utc_ms",
+          "utc_offset_minutes",
+          "local_date"
+        ]
+      },
+      "VoidPayload": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "voided_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          }
+        },
+        "required": [
+          "voided_at_utc_ms"
+        ]
+      },
+      "ProjectPutOperation": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "op_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "seq": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "kind": {
+            "type": "string",
+            "const": "project.put"
+          },
+          "entity_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "payload": {
+            "$ref": "#/components/schemas/ProjectPayload"
+          }
+        },
+        "required": [
+          "op_id",
+          "seq",
+          "kind",
+          "entity_id",
+          "payload"
+        ]
+      },
+      "EntryAddOperation": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "op_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "seq": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "kind": {
+            "type": "string",
+            "const": "entry.add"
+          },
+          "entity_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "payload": {
+            "$ref": "#/components/schemas/EntryPayload"
+          }
+        },
+        "required": [
+          "op_id",
+          "seq",
+          "kind",
+          "entity_id",
+          "payload"
+        ]
+      },
+      "EntryVoidOperation": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "op_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "seq": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "kind": {
+            "type": "string",
+            "const": "entry.void"
+          },
+          "entity_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "payload": {
+            "$ref": "#/components/schemas/VoidPayload"
+          }
+        },
+        "required": [
+          "op_id",
+          "seq",
+          "kind",
+          "entity_id",
+          "payload"
+        ]
+      },
+      "Operation": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/ProjectPutOperation"
+          },
+          {
+            "$ref": "#/components/schemas/EntryAddOperation"
+          },
+          {
+            "$ref": "#/components/schemas/EntryVoidOperation"
+          }
+        ],
+        "discriminator": {
+          "propertyName": "kind",
+          "mapping": {
+            "project.put": "#/components/schemas/ProjectPutOperation",
+            "entry.add": "#/components/schemas/EntryAddOperation",
+            "entry.void": "#/components/schemas/EntryVoidOperation"
+          }
+        }
+      },
+      "Registration": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "installation_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "secret": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{43}$",
+            "description": "32 cryptographically random bytes, base64url without padding. Client MUST persist before request. Decode must yield exactly 32 bytes."
+          }
+        },
+        "required": [
+          "installation_id",
+          "secret"
+        ]
+      },
+      "RegistrationResult": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "installation_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "created",
+              "existing"
+            ]
+          }
+        },
+        "required": [
+          "installation_id",
+          "status"
+        ]
+      },
+      "OperationAck": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "op_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "seq": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9007199254740991
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "applied",
+              "duplicate"
+            ]
+          },
+          "accepted_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          }
+        },
+        "required": [
+          "op_id",
+          "seq",
+          "status",
+          "accepted_at_utc_ms"
+        ]
+      },
+      "Error": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "error": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              },
+              "request_id": {
+                "type": "string",
+                "format": "uuid",
+                "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+              },
+              "expected_seq": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "fields": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "code",
+              "message",
+              "request_id"
+            ]
+          }
+        },
+        "required": [
+          "error"
+        ]
+      },
+      "Project": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40,
+            "description": "Trim before enqueue; Unicode scalar count; reject controls and all-whitespace."
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8,
+            "description": "Immutable after any entry, including voided entries, exists."
+          },
+          "icon_key": {
+            "type": "string",
+            "enum": [
+              "dumbbell",
+              "book",
+              "leaf",
+              "code",
+              "droplet",
+              "check"
+            ]
+          },
+          "quick_amount": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 9999
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "created_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          },
+          "updated_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "unit",
+          "icon_key",
+          "quick_amount",
+          "archived",
+          "created_at_utc_ms",
+          "updated_at_utc_ms"
+        ]
+      },
+      "Entry": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "project_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "amount": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 999999,
+            "description": "Positive integer literal on the wire. Reject 1.0, 1e0, booleans and numeric strings in the typed decoder; JSON Schema alone cannot distinguish all lexical encodings."
+          },
+          "occurred_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          },
+          "utc_offset_minutes": {
+            "type": "integer",
+            "minimum": -840,
+            "maximum": 840
+          },
+          "local_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date at occurrence, equal to UTC timestamp + captured offset. Never regroup old entries in a new timezone."
+          },
+          "voided_at_utc_ms": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 4102444799999,
+                "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "project_id",
+          "amount",
+          "occurred_at_utc_ms",
+          "utc_offset_minutes",
+          "local_date",
+          "voided_at_utc_ms"
+        ]
+      },
+      "Snapshot": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "schema_version": {
+            "type": "integer",
+            "const": 1
+          },
+          "installation_id": {
+            "type": "string",
+            "format": "uuid",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "last_seq": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "exported_at_utc_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4102444799999,
+            "description": "Unix epoch milliseconds in UTC; supplied by the device for domain timestamps."
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Project"
+            }
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Entry"
+            }
+          }
+        },
+        "required": [
+          "schema_version",
+          "installation_id",
+          "last_seq",
+          "exported_at_utc_ms",
+          "projects",
+          "entries"
+        ]
+      },
+      "Health": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "unavailable"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ]
+      }
+    }
+  }
+}

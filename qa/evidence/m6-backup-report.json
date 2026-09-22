@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "method": "SQLite Online Backup API",
+  "restored_rust_process": true,
+  "compared": [
+    "last_seq",
+    "projects",
+    "entries"
+  ],
+  "integrity_check": "ok"
+}

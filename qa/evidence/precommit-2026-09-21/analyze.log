@@ -1,0 +1,5 @@
+Analyzing mobile...                                             
+
+   info • 'dispose' is deprecated and shouldn't be used. Call close() instead • test/migration_test.dart:34:11 • deprecated_member_use
+
+1 issue found. (ran in 3.0s)

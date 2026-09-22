@@ -1,0 +1,17 @@
+Launching lib/main.dart on iPhone 17 Pro in debug mode...
+Running Xcode build...                                          
+Xcode build done.                                           11.7s
+Target native_assets required define SdkRoot but it was not provided
+Syncing files to device iPhone 17 Pro...                           141ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on iPhone 17 Pro is available at: http://127.0.0.1:52435/uoF-qByyJxU=/
+The Flutter DevTools debugger and profiler on iPhone 17 Pro is available at: http://127.0.0.1:52435/uoF-qByyJxU=/devtools/?uri=ws://127.0.0.1:52435/uoF-qByyJxU=/ws
+Lost connection to device.

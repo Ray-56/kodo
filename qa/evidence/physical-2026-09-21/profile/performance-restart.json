@@ -1,0 +1,36 @@
+{
+  "mode": "performance",
+  "trials": [
+    {
+      "same_apk_force_stop_relaunch": true,
+      "host_launch_to_verified_ui_ms": 1421.41,
+      "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 402\nWaitTime: 409\nComplete",
+      "app_verified": {
+        "projects": 100,
+        "entries": 10000,
+        "dart_start_to_verified_ui_ms": 910.807
+      }
+    },
+    {
+      "same_apk_force_stop_relaunch": true,
+      "host_launch_to_verified_ui_ms": 1415.0,
+      "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 402\nWaitTime: 408\nComplete",
+      "app_verified": {
+        "projects": 100,
+        "entries": 10000,
+        "dart_start_to_verified_ui_ms": 860.896
+      }
+    },
+    {
+      "same_apk_force_stop_relaunch": true,
+      "host_launch_to_verified_ui_ms": 1259.86,
+      "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 380\nWaitTime: 382\nComplete",
+      "app_verified": {
+        "projects": 100,
+        "entries": 10000,
+        "dart_start_to_verified_ui_ms": 835.477
+      }
+    }
+  ],
+  "timing_note": "Host stopwatch includes adb launch and polling overhead; process cold, filesystem caches retained."
+}

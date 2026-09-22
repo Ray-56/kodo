@@ -1,0 +1,35 @@
+[✓] Flutter (Channel stable, 3.41.4, on macOS 26.6.2 25G83 darwin-arm64, locale en-CN) [768ms]
+    • Flutter version 3.41.4 on channel stable at /Users/ray/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision ff37bef603 (7 months ago), 2026-03-03 16:03:22 -0800
+    • Engine revision e4b8dca3f1
+    • Dart version 3.11.1
+    • DevTools version 2.54.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [77.8s]
+    • Android SDK at /Users/ray/Library/Android/sdk
+    • Emulator version 36.6.11.0 (build_id 15507667) (CL:N/A)
+    • Platform android-36, build-tools 36.1.0
+    • Java binary at: /Users/ray/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home/bin/java
+      This JDK is specified in your Flutter configuration.
+      To change the current JDK, run: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version OpenJDK Runtime Environment Microsoft-13877125 (build 17.0.19+10-LTS)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 26.6) [2.1s]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 17F113
+    • CocoaPods version 1.16.2
+
+[✓] Chrome - develop for the web [5ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Connected device (2 available) [8.2s]
+    • macOS (desktop) • macos  • darwin-arm64   • macOS 26.6.2 25G83 darwin-arm64
+    • Chrome (web)    • chrome • web-javascript • Google Chrome 153.0.8010.48
+
+[✓] Network resources [1,076ms]
+    • All expected network resources are available.
+
+• No issues found!

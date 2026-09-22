@@ -1,0 +1,11 @@
+{
+  "mode": "deletion",
+  "trials": [
+    {
+      "same_apk_force_stop_relaunch": true,
+      "host_launch_to_verified_ui_ms": 2875.51,
+      "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 2343\nWaitTime: 2349\nComplete"
+    }
+  ],
+  "timing_note": "Host stopwatch includes adb launch and polling overhead; process cold, filesystem caches retained."
+}

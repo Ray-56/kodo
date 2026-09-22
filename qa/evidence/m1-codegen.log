@@ -1,0 +1,24 @@
+  1s compiling builders/aot
+  2s compiling builders/aot
+  3s compiling builders/aot
+  4s compiling builders/aot
+  5s compiling builders/aot
+  6s compiling builders/aot
+  7s compiling builders/aot
+  8s compiling builders/aot
+  9s compiling builders/aot
+  11s compiling builders/aot
+  12s compiling builders/aot
+  13s compiling builders/aot
+  14s compiling builders/aot
+  14s compiling builders/aot
+W These options have been removed and were ignored: --delete-conflicting-outputs
+  0s drift_dev:preparing_builder on 1 input; lib/core/storage/schema.drift
+  0s drift_dev:preparing_builder on 1 input: 1 output
+  0s drift_dev on 27 inputs; lib/core/storage/database.dart
+  1s drift_dev on 27 inputs: 1 output; lib/core/storage/models.dart
+  4s drift_dev on 27 inputs: 6 output; spent 2s analyzing; test/widget_test.dart
+  4s drift_dev on 27 inputs: 7 skipped, 14 output, 6 no-op; spent 2s analyzing
+  0s source_gen:combining_builder on 13 inputs; lib/core/storage/database.dart
+  0s source_gen:combining_builder on 13 inputs: 7 skipped, 1 output, 5 no-op
+  Built with build_runner/aot in 18s; wrote 17 outputs.

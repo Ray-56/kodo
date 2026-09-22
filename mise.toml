@@ -1,0 +1,4 @@
+[tools]
+flutter = "3.41.4"
+java = "17.0.19"
+python = "3.13.8"

@@ -1,0 +1,6 @@
+Analyzing mobile...                                             
+
+   info • Statements in an if should be enclosed in a block • integration_test/performance_test.dart:131:11 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • test_driver/integration_test.dart:34:9 • curly_braces_in_flow_control_structures
+
+2 issues found. (ran in 2.6s)

@@ -1,0 +1,359 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "design/assets/brand/android_background_color.txt",
+      "bytes": 8,
+      "sha256": "b6381f839ad6d9f4955f6fe95cd45c4aceca5dd6d5fd6538ff7b0ecde052e5e5",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/brand/android_foreground.svg",
+      "bytes": 286,
+      "sha256": "164222d71c2b460a717c449b0ad29af2b3cbc4893c5fc9bb34cc3e10e0ed2809",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/brand/android_foreground_1024.png",
+      "bytes": 16208,
+      "sha256": "e8d13e1960c5c6bb3ec91e1a787a17fa14ad408023bf44e7834e2cee472bf277",
+      "purpose": "品牌矢量或应用图标源资产",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "design/assets/brand/app_icon_1024.png",
+      "bytes": 14412,
+      "sha256": "bf7f82117d214c7e58c6f9ca4d4b72d4459bf093d8e3f57b62f0935848f683f9",
+      "purpose": "品牌矢量或应用图标源资产",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/assets/brand/app_icon_180.png",
+      "bytes": 2407,
+      "sha256": "a6dfc1f9fb5fd90d427f0b00342a557c6cca402b27d231c5e7e5241670084a43",
+      "purpose": "品牌矢量或应用图标源资产",
+      "width": 180,
+      "height": 180,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/assets/brand/app_icon_192.png",
+      "bytes": 2512,
+      "sha256": "c823ca257c564d6cb4bd993c4eafa12a112dd574265b2be0c749d68a52fb4adb",
+      "purpose": "品牌矢量或应用图标源资产",
+      "width": 192,
+      "height": 192,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/assets/brand/app_icon_512.png",
+      "bytes": 5692,
+      "sha256": "daa99b8cfc85563c800a7a1fcda055315988e8f169f9c817fe9021aaccd9e48a",
+      "purpose": "品牌矢量或应用图标源资产",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/assets/brand/app_icon_master.svg",
+      "bytes": 335,
+      "sha256": "e75ecbeb6bded2f063fba8cbe63229f50f3551242887d0b824b04d922e098068",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/brand/logo_mark.svg",
+      "bytes": 207,
+      "sha256": "0db49d67dd5b3a4ca91e42ea33c749c7be7ef3c7f629a0f08f6e641a7e20f79b",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/brand/logo_mark_inverse.svg",
+      "bytes": 207,
+      "sha256": "6a06fc313415620ec3c2e61c14ee039fe9210dad74c52ff37f0749baf2a060a9",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/brand/logo_mark_mono.svg",
+      "bytes": 207,
+      "sha256": "8fd18558f6a2146b798649dbebf73009cba4a84b942220dae405cd5e91de57d3",
+      "purpose": "品牌矢量或应用图标源资产"
+    },
+    {
+      "path": "design/assets/icons/archive.svg",
+      "bytes": 265,
+      "sha256": "e780039ece513aeb90c353e22cb52b68b3a24883a2dc0b776c75eeca57b55107",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/book.svg",
+      "bytes": 265,
+      "sha256": "fb028c439171a481d18307b0640ec38c0f210cbde4b15b7658955df282ec8b8b",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/check.svg",
+      "bytes": 211,
+      "sha256": "c48a7ed11da7ff81b30e392bc3561df11364d110355a10184040eed4eee47fa8",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/chevron_left.svg",
+      "bytes": 210,
+      "sha256": "456ed9e69e6d14b375b651d7053507a8cdee000640968e1c67679d7a87586201",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/chevron_right.svg",
+      "bytes": 209,
+      "sha256": "8c05df387291c702946a6bc9e34d22abc439b7461e0511cece3dfcc9b5170b46",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/close.svg",
+      "bytes": 217,
+      "sha256": "595dbda5e9c5bab1a1d16bf98aa65f7d27a530ea32806c799e8a19e67bfff060",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/cloud.svg",
+      "bytes": 250,
+      "sha256": "88069559acdce1b7b67b8e59221048f9296a03014e1cbad5554d623f0212f3b8",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/code.svg",
+      "bytes": 234,
+      "sha256": "5b5642cb806c8f935832f0bc0f4beec2fa57182b1ce21e3d5dd195122648bdb7",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/droplet.svg",
+      "bytes": 245,
+      "sha256": "fbd59c61f16ef00a09e1f31059179c997af936920b975ff641ae78a976f4c7c7",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/dumbbell.svg",
+      "bytes": 318,
+      "sha256": "6e281cbdb84dcdd039e8d6c7ed5e0f139514a7283a9b7bb2cca3adad5959d4ac",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/edit.svg",
+      "bytes": 231,
+      "sha256": "ad5bebd2b87cfd8542461df306175888571a3002ae1a9fd6b460977399143e3f",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/export.svg",
+      "bytes": 231,
+      "sha256": "ca97e66b81190cd87d958528d73cefa654a1c2eb2f8a2f86ef3e98d3c3bd30a6",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/leaf.svg",
+      "bytes": 253,
+      "sha256": "3a3cfdc4397591925713986aef1e2f02f95a0770a53451c8815162a3354406b4",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/minus.svg",
+      "bytes": 205,
+      "sha256": "7d61d1ba76c20202d27250939a72241083fbc12107afc0b2d559d1ab25fa9c03",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/more.svg",
+      "bytes": 277,
+      "sha256": "6e4fe47b585561a3d777b4547f681bbeee6c54bea691bf9c1a9da404ee1bd395",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/offline.svg",
+      "bytes": 259,
+      "sha256": "a52a9c063ecb722eec698ebbd393d8efb9c3d1237a07b4335d01ded4f2c0fe29",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/plus.svg",
+      "bytes": 213,
+      "sha256": "6d3e90b0663a15abbc6ca754a1344f83511c56dc9ccd0a2324dbb11d6f2f6505",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/projects.svg",
+      "bytes": 385,
+      "sha256": "91609c3c56e403143950f5c2e311a50568878d706ddba728b0bd573548e4a97a",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/restore.svg",
+      "bytes": 224,
+      "sha256": "9d1d6a222dc8e5a073d2697990680ee2fcd00f7e6fcc1e260459ff34ef1752ff",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/settings.svg",
+      "bytes": 302,
+      "sha256": "4eae4ecd34263b92507bf2738ea4036c52ce13df6d033d750a16b93999a7c9fd",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/stats.svg",
+      "bytes": 235,
+      "sha256": "8ef04556d0184166ec5dc81d1d41a1dbf65e6fc3f0d98cf44d9dd73ae142d154",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/assets/icons/trash.svg",
+      "bytes": 245,
+      "sha256": "3dc6688b550eeca04b9bb3a7854e45df28fcce5500e34bb5f393ab92c7b99d2d",
+      "purpose": "可接入 Flutter 的独立 SVG 图标"
+    },
+    {
+      "path": "design/contrast_checks.json",
+      "bytes": 448,
+      "sha256": "1c05950542fa107a390efae5974cd532fe601d2672e641de2e7c5dc6161c26db",
+      "purpose": "设计参数、文案或对比度核验"
+    },
+    {
+      "path": "design/copy.zh-CN.json",
+      "bytes": 1530,
+      "sha256": "859766b39165973f24d462a76b2e5796aa2a3a9772ded8be9cba5760a1d301f6",
+      "purpose": "设计参数、文案或对比度核验"
+    },
+    {
+      "path": "design/implementation/create.png",
+      "bytes": 59759,
+      "sha256": "901b4b507c5012db435260ce292cbde572d73ae600b79c746b8510f31d8c7ad4",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/detail.png",
+      "bytes": 68693,
+      "sha256": "feb4aeeb52e9d31a6dd2ec67370695438ae78fe35b69e09cbe2f1614c737e529",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/empty.png",
+      "bytes": 52478,
+      "sha256": "5bd3149531a7e08130756c3ae1427470aabfad751aa6e1121c7e78aff24dd624",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/home.png",
+      "bytes": 94372,
+      "sha256": "d9a84d83a3f83b9491714fa68fa0df4497a93790e86dde894d62d34bf9552e66",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/index.html",
+      "bytes": 15481,
+      "sha256": "5df136b710fca5533178d96e1c6b7ae5931d8ad89ce8c8fafe73d8c2c9dac0dd",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据"
+    },
+    {
+      "path": "design/implementation/overview.png",
+      "bytes": 549717,
+      "sha256": "2d2de6c1fe047e03326da29a6d4599199b6d3c7d1a7d68614f209a92a096fe85",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 2700,
+      "height": 4016,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/settings.png",
+      "bytes": 80179,
+      "sha256": "9f7897f457f99f749df723642bc2cf1dccdb82fa0068f4a6676a71a26ca0c654",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/implementation/stats.png",
+      "bytes": 79175,
+      "sha256": "82d328b380d3aeb30bff2f70245c7ceeccfa11fb61ea8ca30b0030dae94de6f4",
+      "purpose": "最终 MVP 静态布局基线；非 Flutter 运行证据",
+      "width": 780,
+      "height": 1690,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/01_design_system.png",
+      "bytes": 1427912,
+      "sha256": "5dd69ddd8c26224be850349e07cb2420a6f78fd7343a70a014a6309b936775f3",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/02_brand_concept.png",
+      "bytes": 1203802,
+      "sha256": "257d013edfe03956e257fab0ebbccd65f0d70e3ab435af6ddabe73f10f5e0e7f",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/03_home_concept.png",
+      "bytes": 1251291,
+      "sha256": "381552a186db26bfbd30c1f21cc9601a739bd1c4fe5acbdc0eb1d3fb95cfb469",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/04_detail_concept.png",
+      "bytes": 1102984,
+      "sha256": "b74036e170f086d8e51700e28061e472f1ae639e706cb9b07aa1c32e0fa16388",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/05_create_concept.png",
+      "bytes": 1177587,
+      "sha256": "fb850317bfcefde78b35a511c122275e24f4eb2bf6109c1360f176b2c31e686a",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/references/06_stats_concept.png",
+      "bytes": 1293210,
+      "sha256": "47dd0d4047598a935785e459e14c0e55d0f1a3c4de0e470e9360a6c34cf7022c",
+      "purpose": "AI 概念风格参考；非 MVP 功能规范",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB"
+    },
+    {
+      "path": "design/tokens.json",
+      "bytes": 1575,
+      "sha256": "537bd5c1e61bda4a1505960e8df1bd32beebd5574c117107f8b3ed1293906a9c",
+      "purpose": "设计参数、文案或对比度核验"
+    }
+  ]
+}

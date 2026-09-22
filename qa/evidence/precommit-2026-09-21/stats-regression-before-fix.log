@@ -1,0 +1,87 @@
+00:00 +0: loading /private/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/kodo-precommit-zs9ejvtv/apps/mobile/test/widget_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: selected statistics survives delete-all and returns to global events
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building StatsScreen(dirty, dependencies:
+[InheritedCupertinoTheme, _InheritedTheme, _LocalizationsScope-[GlobalKey#5e5f9],
+_UncontrolledProviderScope], state: _StatsState#fe6b6):
+There should be exactly one item with [DropdownButton]'s value:
+5c49cfa2-9127-454b-bceb-ed6d911ee3dc.
+Either zero or 2 or more [DropdownMenuItem]s were detected with the same value
+'package:flutter/src/material/dropdown.dart':
+Failed assertion: line 1830 pos 10: 'items == null ||
+             items.isEmpty ||
+             (initialValue == null && value == null) ||
+             items
+                     .where((DropdownMenuItem<T> item) => item.value == (initialValue ?? value))
+                     .length ==
+                 1'
+
+The relevant error-causing widget was:
+  StatsScreen
+  StatsScreen:file:///private/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/kodo-precommit-zs9ejvtv/apps/mobile/lib/features/projects/screens.dart:117:39
+
+When the exception was thrown, this was the stack:
+#2      new DropdownButtonFormField (package:flutter/src/material/dropdown.dart:1830:10)
+#3      _StatsState.build (package:kodo_app/features/projects/screens.dart:833:9)
+#4      StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#5      ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#6      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#7      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#8      Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#9      BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#10     BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#11     BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#12     AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#13     RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#14     SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#15     SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#16     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#19     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#20     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#21     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#22     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#23     main.<anonymous closure> (file:///private/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/kodo-precommit-zs9ejvtv/apps/mobile/test/widget_test.dart:313:7)
+<asynchronous suspension>
+#24     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#25     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 5 frames from class _AssertionError, dart:async, and package:stack_trace)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "0 次记录": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///private/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/kodo-precommit-zs9ejvtv/apps/mobile/test/widget_test.dart:314:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///private/var/folders/_x/dd712bx943173kkhbdypsv3m0000gn/T/kodo-precommit-zs9ejvtv/apps/mobile/test/widget_test.dart line 314
+The test description was:
+  selected statistics survives delete-all and returns to global events
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: selected statistics survives delete-all and returns to global events [E]
+  Test failed. See exception logs above.
+  The test description was: selected statistics survives delete-all and returns to global events
+  
+00:01 +0 -1: (tearDownAll)
+00:01 +0 -1: Some tests failed.

@@ -1,0 +1,34 @@
+name: Kodo checks
+on: [push, pull_request]
+jobs:
+  rust:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@1.96.0
+        with:
+          components: rustfmt,clippy
+      - run: cargo fmt --manifest-path services/api/Cargo.toml --check
+      - run: cargo clippy --manifest-path services/api/Cargo.toml --locked --all-targets -- -D warnings
+      - run: cargo test --manifest-path services/api/Cargo.toml --locked
+      - run: |
+          mkdir -p var/kodo
+          cargo run --manifest-path services/api/Cargo.toml --locked &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:8080/health/ready && break || sleep 1; done
+          python3 scripts/smoke_api.py
+  flutter:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.41.4'
+          channel: stable
+      - run: flutter pub get --enforce-lockfile
+        working-directory: apps/mobile
+      - run: dart format --output=none --set-exit-if-changed lib test integration_test test_driver
+        working-directory: apps/mobile
+      - run: flutter analyze
+        working-directory: apps/mobile
+      - run: flutter test
+        working-directory: apps/mobile

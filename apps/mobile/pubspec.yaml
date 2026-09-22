@@ -1,0 +1,35 @@
+name: kodo_app
+description: Kodo · 行一 — local-first private counter MVP.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.2.1
+  drift: 2.34.0
+  sqlite3: ^3.1.5
+  dio: ^5.9.1
+  uuid: ^4.5.2
+  flutter_secure_storage: ^10.0.0
+  flutter_svg: ^2.2.3
+  intl: ^0.20.2
+  share_plus: ^12.0.1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: 2.34.0
+  build_runner: ^2.11.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/brand/

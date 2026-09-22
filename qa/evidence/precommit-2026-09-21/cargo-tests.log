@@ -1,0 +1,32 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.15s
+     Running unittests src/lib.rs (services/api/target/debug/deps/kodo_api-1adbabbbb45b51b7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (services/api/target/debug/deps/kodo_api-db0c49c6716e99fe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/protocol.rs (services/api/target/debug/deps/protocol-4741a9610fb2a0a4)
+
+running 7 tests
+test rate_limits_return_retry_after ... ok
+test external_sqlite_write_lock_returns_503_without_partial_commit ... ok
+test registration_auth_isolation_and_revoke ... ok
+test concurrent_delete_snapshot_operation_never_resurrects ... ok
+test canonical_order_and_file_reopen_are_durable ... ok
+test strict_types_unknown_fields_body_size_dates_and_atomic_failures ... ok
+test sequence_replay_mismatch_and_duplicate_before_archive_validation ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+   Doc-tests kodo_api
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

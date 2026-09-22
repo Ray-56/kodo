@@ -1,0 +1,17 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart
+00:00 +0: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S10/S11/S15 consent gates registration, FIFO offline create add void archive
+00:00 +1: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +2: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +3: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +4: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +5: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +6: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +7: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +8: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +9: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +10: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +11: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +12: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +13: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:00 +14: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:00 +15: All tests passed!

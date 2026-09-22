@@ -1,0 +1,7 @@
+{
+  "candidate_files": 424,
+  "candidate_bytes": 29482130,
+  "known_credential_patterns_found": 0,
+  "staged_files": [],
+  "conclusion": "ready for MVP development commit; release acceptance remains partial"
+}

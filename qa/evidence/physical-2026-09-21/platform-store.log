@@ -1,0 +1,3 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/platform_store_test.dart
+00:00 +0: Android KeyStore errors must not request credential reset or mutate local data
+00:01 +1: All tests passed!

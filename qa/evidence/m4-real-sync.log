@@ -1,0 +1,41 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart
+test/sync_test.dart:214:40: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(store.values['identity'], isNotNull);
+                                       ^^^^^^^^^
+test/sync_test.dart:247:38: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+    expect(store.values['identity'], isNotNull);
+                                     ^^^^^^^^^
+test/sync_test.dart:259:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(id.identity, isNull);
+                          ^^^^^^
+test/sync_test.dart:265:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(id.identity, isNull);
+                          ^^^^^^
+test/sync_test.dart:275:25: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+    expect(id.identity, isNull);
+                        ^^^^^^
+test/sync_test.dart:291:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(id.identity, isNull);
+                          ^^^^^^
+00:00 +0 -1: loading /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart [E]
+  Failed to load "/Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart":
+  Compilation failed for testPath=/Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: test/sync_test.dart:214:40: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(store.values['identity'], isNotNull);
+                                         ^^^^^^^^^
+  test/sync_test.dart:247:38: Error: 'isNotNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(store.values['identity'], isNotNull);
+                                       ^^^^^^^^^
+  test/sync_test.dart:259:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(id.identity, isNull);
+                            ^^^^^^
+  test/sync_test.dart:265:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(id.identity, isNull);
+                            ^^^^^^
+  test/sync_test.dart:275:25: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+      expect(id.identity, isNull);
+                          ^^^^^^
+  test/sync_test.dart:291:27: Error: 'isNull' is imported from both 'package:drift/src/runtime/query_builder/query_builder.dart' and 'package:matcher/src/core_matchers.dart'.
+        expect(id.identity, isNull);
+                            ^^^^^^
+  .
+00:00 +0 -1: Some tests failed.

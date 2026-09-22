@@ -1,0 +1,327 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (108.0.0 available)
+  analyzer 10.0.1 (14.4.0 available)
+  build 4.0.7 (4.0.11 available)
+  build_runner 2.15.1 (2.16.1 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  dart_style 3.1.7 (3.1.13 available)
+  drift 2.34.0 (2.35.0 available)
+  drift_dev 2.34.0 (2.35.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  flutter_secure_storage 10.3.4 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  native_toolchain_c 0.19.2 (0.19.5 available)
+  objective_c 9.5.0 (9.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  share_plus 12.0.2 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  source_gen 4.2.4 (4.3.0 available)
+  sqlite3 3.5.2 (3.6.0 available)
+  sqlparser 0.44.5 (0.45.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.30.0 (1.32.0 available)
+  test_api 0.7.10 (0.7.14 available)
+  test_core 0.6.16 (0.6.20 available)
+  vector_math 2.2.0 (2.4.2 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+36 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Installing build/app/outputs/flutter-apk/app-profile.apk...         3.8s
+I/Choreographer(21306): first vsync insert message into MessageQueue Head
+D/SurfaceView(21306): UPDATE Surface(name=619960b SurfaceView[dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity]#27364)/@0xa2ff100, mIsProjectionMode = false
+D/HWUI    (21306): [HWUI] Flag vulkan_enhance_pipeline_cache enabled
+D/HWUI    (21306): [HWUI] EnhanceVkPipelineCache is disabled
+D/HWUI    (21306): [HWUI] Flag ddre enabled
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+D/WindowLayoutComponentImpl(21306): Register WindowLayoutInfoListener on Context=dev.example.kodo_app.MainActivity@933e9d1, of which baseContext=android.app.ContextImpl@1a7858a
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+I/ple.kodo_app.qa(21306): Compiler allocated 6765KB to compile void android.view.ViewRootImpl.performTraversals()
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:56298/kFn--qV7v7k=/
+VMServiceFlutterDriver: Isolate found with number: 7463415180245107
+VMServiceFlutterDriver: Isolate 7463415180245107 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter (21306): 00:00 +0: Physical profile: 100 taps, 100 projects/10k entries, scrolling
+VMServiceFlutterDriver: Connected to Flutter application.
+D/VRI[MainActivity](21306): vri.Setup new sync=wmsSync-VRI[MainActivity]#1
+D/VRI[MainActivity](21306): vri.reportDrawFinished 0 0 Rect(0, 0 - 1200, 2670)
+I/NativeTurboSchedManager(21306): Load libmiui_runtime
+I/HandWritingStubImpl(21306): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(21306): getCurrentKeyboardType: 1
+D/InsetsController(21306): hide(ime(), fromIme=false)
+I/ImeTracker(21306): dev.example.kodo_app.qa:4f8388f3: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/HandWritingStubImpl(21306): getCurrentKeyboardType: 1
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+D/FlutterSecureStorage(21306): No data found in EncryptedSharedPreferences.
+I/ple.kodo_app.qa(21306): AssetManager2(0xb4000070d2d15618) locale list changing from [] to [en]
+I/ple.kodo_app.qa(21306): AssetManager2(0xb4000070d2d07e78) locale list changing from [] to [en-US]
+D/VRI[MainActivity](21306): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(21306): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/ple.kodo_app.qa(21306): DynamicFPS DF top: dev.example.kodo_app.qa : 0.000000
+I/ple.kodo_app.qa(21306): DF dev.example.kodo_app.qa Support DynamicFPS.
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+D/LB      (21306): CustomizeAffinityThread startThread
+W/1.raster(21306): type=1400 audit(0.0:45546): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=74850 scontext=u:r:untrusted_app:s0:c130,c257,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=dev.example.kodo_app.qa
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+D/ProfileInstaller(21306): Installing profile for dev.example.kodo_app.qa
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+D/libEGL  (21306): Post task 1
+D/libEGL  (21306): Worker thread start 480596608000
+D/libEGL  (21306): Run task 1
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+I/VibrateUtils(21306): 5,2,true
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/ple.kodo_app.qa(21306): This is non sticky GC, maxfree is 33554432 minfree is 8388608
+W/FinalizerDaemon(21306): type=1400 audit(0.0:45547): avc:  denied  { getopt } for  path="/dev/socket/usap_pool_primary" scontext=u:r:untrusted_app:s0:c130,c257,c512,c768 tcontext=u:r:zygote:s0 tclass=unix_stream_socket permissive=0 app=dev.example.kodo_app.qa
+I/ple.kodo_app.qa(21306): ProcessProfilingInfo new_methods=1 is saved saved_to_disk=1
+D/libEGL  (21306): Worker thread exit 480596608000
+D/BufferQueueProducer(21306): [619960b SurfaceView[dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity]#1(BLAST Consumer)1](id:533a00000001,api:1,p:21306,c:21306) disconnect: api 1 (caller=21306)
+E/qdgralloc(21306): GetGpuPixelFormat: No map for format: 0x3b
+E/AdrenoUtils(21306): <validate_memory_layout_input_params:1805>: Unknown Format 0
+E/AdrenoUtils(21306): <adreno_init_memory_layout:4055>: Memory Layout input parameter validation failed!
+W/qdgralloc(21306): GetGpuResourceSizeAndDimensions Graphics metadata init failed
+E/Gralloc4(21306): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(21306): Failed to allocate (4 x 4) layerCount 1 format 59 usage 300: 2
+E/AHardwareBuffer(21306): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+E/qdgralloc(21306): GetGpuPixelFormat: No map for format: 0x3b
+E/AdrenoUtils(21306): <validate_memory_layout_input_params:1805>: Unknown Format 0
+E/AdrenoUtils(21306): <adreno_init_memory_layout:4055>: Memory Layout input parameter validation failed!
+W/qdgralloc(21306): GetGpuResourceSizeAndDimensions Graphics metadata init failed
+E/Gralloc4(21306): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(21306): Failed to allocate (4 x 4) layerCount 1 format 59 usage 300: 2
+E/AHardwareBuffer(21306): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+D/BufferQueueProducer(21306): [ImageReader-1200x2670f1m3-21306-0](id:533a00000002,api:1,p:21306,c:21306) disconnect: api 1 (caller=21306)
+W/ple.kodo_app.qa(21306): Binder 0xb400007082ce43a0 destroyed after setInheritRt before being parceled.
+W/qdgralloc(21306): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(21306): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(21306): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(21306): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(21306): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(21306): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(21306): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(21306): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(21306): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(21306): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(21306): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/ple.kodo_app.qa(21306): Binder 0xb400007082ce3f80 destroyed after setInheritRt before being parceled.
+D/BufferQueueConsumer(21306): [ImageReader-1200x2670f1m3-21306-0](id:533a00000002,api:0,p:-1,c:21306) disconnect: caller 21306
+I/flutter (21306): 00:50 +1: (tearDownAll)
+I/flutter (21306): 00:50 +2: All tests passed!
+All tests passed.
+I/flutter (22176): The Dart VM service is listening on http://127.0.0.1:45507/-ltr3reSAjM=/
+I/flutter (22176): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (22176): 00:00 +0: Physical profile: 100 taps, 100 projects/10k entries, scrolling
+E/FlutterSecureStorage(22176): EncryptedSharedPreferences initialization failed. Falling back to custom ciphers.
+E/FlutterSecureStorage(22176): java.lang.SecurityException: Could not decrypt key. decryption failed
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:561)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.getAll(EncryptedSharedPreferences.java:378)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.hasDataInEncryptedSharedPreferences(FlutterSecureStorage.java:1380)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.continueInitialize(FlutterSecureStorage.java:193)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.-$$Nest$mcontinueInitialize(Unknown Source:0)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:161)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.recoverBiometricNamespaceKeyIfNeeded(FlutterSecureStorage.java:303)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.initialize(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run(FlutterSecureStoragePlugin.java:173)
+E/FlutterSecureStorage(22176): 	at android.os.Handler.handleCallback(Handler.java:1029)
+E/FlutterSecureStorage(22176): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/FlutterSecureStorage(22176): 	at android.os.Looper.loopOnce(Looper.java:274)
+E/FlutterSecureStorage(22176): 	at android.os.Looper.loop(Looper.java:369)
+E/FlutterSecureStorage(22176): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/FlutterSecureStorage(22176): Caused by: java.security.GeneralSecurityException: decryption failed
+E/FlutterSecureStorage(22176): 	at com.google.crypto.tink.daead.internal.WrappedDeterministicAead$WrappedDeterministicAeadImpl.decryptDeterministically(WrappedDeterministicAead.java:104)
+E/FlutterSecureStorage(22176): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:552)
+E/FlutterSecureStorage(22176): 	... 14 more
+I/flutter (22176): KODO_PERF_READY {"projects":100,"entries":10000,"dart_start_to_verified_ui_ms":910.807}
+I/flutter (22176): 00:00 +1: (tearDownAll)
+I/flutter (22176): 00:00 +2: All tests passed!
+I/flutter (22416): The Dart VM service is listening on http://127.0.0.1:43697/sA0_jhIr6uA=/
+I/flutter (22416): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (22416): 00:00 +0: Physical profile: 100 taps, 100 projects/10k entries, scrolling
+E/FlutterSecureStorage(22416): EncryptedSharedPreferences initialization failed. Falling back to custom ciphers.
+E/FlutterSecureStorage(22416): java.lang.SecurityException: Could not decrypt key. decryption failed
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:561)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.getAll(EncryptedSharedPreferences.java:378)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.hasDataInEncryptedSharedPreferences(FlutterSecureStorage.java:1380)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.continueInitialize(FlutterSecureStorage.java:193)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.-$$Nest$mcontinueInitialize(Unknown Source:0)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:161)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.recoverBiometricNamespaceKeyIfNeeded(FlutterSecureStorage.java:303)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.initialize(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run(FlutterSecureStoragePlugin.java:173)
+E/FlutterSecureStorage(22416): 	at android.os.Handler.handleCallback(Handler.java:1029)
+E/FlutterSecureStorage(22416): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/FlutterSecureStorage(22416): 	at android.os.Looper.loopOnce(Looper.java:274)
+E/FlutterSecureStorage(22416): 	at android.os.Looper.loop(Looper.java:369)
+E/FlutterSecureStorage(22416): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/FlutterSecureStorage(22416): Caused by: java.security.GeneralSecurityException: decryption failed
+E/FlutterSecureStorage(22416): 	at com.google.crypto.tink.daead.internal.WrappedDeterministicAead$WrappedDeterministicAeadImpl.decryptDeterministically(WrappedDeterministicAead.java:104)
+E/FlutterSecureStorage(22416): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:552)
+E/FlutterSecureStorage(22416): 	... 14 more
+I/flutter (22416): KODO_PERF_READY {"projects":100,"entries":10000,"dart_start_to_verified_ui_ms":860.896}
+I/flutter (22416): 00:00 +1: (tearDownAll)
+I/flutter (22416): 00:00 +2: All tests passed!
+I/flutter (23811): The Dart VM service is listening on http://127.0.0.1:38469/BK_uC4TaNsg=/
+I/flutter (23811): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (23811): 00:00 +0: Physical profile: 100 taps, 100 projects/10k entries, scrolling
+E/FlutterSecureStorage(23811): EncryptedSharedPreferences initialization failed. Falling back to custom ciphers.
+E/FlutterSecureStorage(23811): java.lang.SecurityException: Could not decrypt key. decryption failed
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:561)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.getAll(EncryptedSharedPreferences.java:378)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.hasDataInEncryptedSharedPreferences(FlutterSecureStorage.java:1380)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.continueInitialize(FlutterSecureStorage.java:193)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.-$$Nest$mcontinueInitialize(Unknown Source:0)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:161)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.recoverBiometricNamespaceKeyIfNeeded(FlutterSecureStorage.java:303)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.initialize(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run(FlutterSecureStoragePlugin.java:173)
+E/FlutterSecureStorage(23811): 	at android.os.Handler.handleCallback(Handler.java:1029)
+E/FlutterSecureStorage(23811): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/FlutterSecureStorage(23811): 	at android.os.Looper.loopOnce(Looper.java:274)
+E/FlutterSecureStorage(23811): 	at android.os.Looper.loop(Looper.java:369)
+E/FlutterSecureStorage(23811): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/FlutterSecureStorage(23811): Caused by: java.security.GeneralSecurityException: decryption failed
+E/FlutterSecureStorage(23811): 	at com.google.crypto.tink.daead.internal.WrappedDeterministicAead$WrappedDeterministicAeadImpl.decryptDeterministically(WrappedDeterministicAead.java:104)
+E/FlutterSecureStorage(23811): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:552)
+E/FlutterSecureStorage(23811): 	... 14 more
+I/flutter (23811): KODO_PERF_READY {"projects":100,"entries":10000,"dart_start_to_verified_ui_ms":835.477}
+I/flutter (23811): 00:00 +1: (tearDownAll)
+I/flutter (23811): 00:00 +2: All tests passed!
+PASS Android same-install restart: [{"same_apk_force_stop_relaunch": true, "host_launch_to_verified_ui_ms": 1421.41, "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 402\nWaitTime: 409\nComplete", "app_verified": {"projects": 100, "entries": 10000, "dart_start_to_verified_ui_ms": 910.807}}, {"same_apk_force_stop_relaunch": true, "host_launch_to_verified_ui_ms": 1415.0, "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 402\nWaitTime: 408\nComplete", "app_verified": {"projects": 100, "entries": 10000, "dart_start_to_verified_ui_ms": 860.896}}, {"same_apk_force_stop_relaunch": true, "host_launch_to_verified_ui_ms": 1259.86, "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 380\nWaitTime: 382\nComplete", "app_verified": {"projects": 100, "entries": 10000, "dart_start_to_verified_ui_ms": 835.477}}]

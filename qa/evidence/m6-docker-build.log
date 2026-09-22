@@ -1,0 +1,35 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 711B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/rust:1.96.0-bookworm
+#3 ...
+
+#4 [internal] load metadata for docker.io/library/debian:bookworm-20260824-slim
+#4 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/debian/manifests/bookworm-20260824-slim": dialing registry-1.docker.io:443 with direct connection: connecting to 31.13.90.33:443: dial tcp 31.13.90.33:443: connect: operation timed out
+
+#3 [internal] load metadata for docker.io/library/rust:1.96.0-bookworm
+#3 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/rust/manifests/1.96.0-bookworm": dialing registry-1.docker.io:443 with direct connection: connecting to 31.13.90.33:443: dial tcp 31.13.90.33:443: connect: operation timed out
+------
+ > [internal] load metadata for docker.io/library/debian:bookworm-20260824-slim:
+------
+------
+ > [internal] load metadata for docker.io/library/rust:1.96.0-bookworm:
+------
+Dockerfile:8
+--------------------
+   6 |     RUN cargo build --locked --release
+   7 |     
+   8 | >>> FROM debian:bookworm-20260824-slim
+   9 |     RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl && rm -rf /var/lib/apt/lists/* && useradd -u 10001 -m kodo && mkdir -p /data && chown kodo:kodo /data
+  10 |     COPY --from=builder /build/target/release/kodo-api /usr/local/bin/kodo-api
+--------------------
+ERROR: failed to solve: debian:bookworm-20260824-slim: failed to do request: Head "https://registry-1.docker.io/v2/library/debian/manifests/bookworm-20260824-slim": dialing registry-1.docker.io:443 with direct connection: connecting to 31.13.90.33:443: dial tcp 31.13.90.33:443: connect: operation timed out
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/op2umj0nly1ibpn09c4svhx25

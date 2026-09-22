@@ -1,0 +1,7 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart
+00:00 +0: native layouts 390.0x844.0 at 100.0% text
+00:02 +1: native layouts 390.0x844.0 at 200.0% text
+00:02 +2: native layouts 360.0x800.0 at 100.0% text
+00:03 +3: native layouts 360.0x800.0 at 200.0% text
+00:03 +4: P06 quick hit target records without detail navigation; P07 draft only
+00:03 +5: All tests passed!

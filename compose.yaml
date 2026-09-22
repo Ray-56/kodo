@@ -1,0 +1,20 @@
+services:
+  api:
+    build: services/api
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      KODO_BIND: 0.0.0.0:8080
+      KODO_DATABASE_URL: sqlite:///data/kodo.sqlite
+      KODO_REGISTRATIONS_PER_HOUR: ${KODO_REGISTRATIONS_PER_HOUR:-10}
+      KODO_OPERATIONS_PER_MINUTE: ${KODO_OPERATIONS_PER_MINUTE:-120}
+      KODO_OPERATION_BURST: ${KODO_OPERATION_BURST:-60}
+      KODO_SNAPSHOTS_PER_MINUTE: ${KODO_SNAPSHOTS_PER_MINUTE:-6}
+    volumes:
+      - kodo-data:/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+volumes:
+  kodo-data:

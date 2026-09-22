@@ -1,0 +1,22 @@
+  1s compiling builders/aot
+  2s compiling builders/aot
+  3s compiling builders/aot
+  4s compiling builders/aot
+  5s compiling builders/aot
+  6s compiling builders/aot
+  7s compiling builders/aot
+  8s compiling builders/aot
+  9s compiling builders/aot
+  10s compiling builders/aot
+  11s compiling builders/aot
+  13s compiling builders/aot
+  14s compiling builders/aot
+  14s compiling builders/aot
+  0s drift_dev:preparing_builder on 1 input; lib/core/storage/schema.drift
+  0s drift_dev:preparing_builder on 1 input: 1 output
+  0s drift_dev on 71 inputs; integration_test/full_flow_test.dart
+  6s drift_dev on 71 inputs: 1 output; spent 4s analyzing; integration_test/local_flow_test.dart
+  6s drift_dev on 71 inputs: 18 skipped, 36 output, 17 no-op; spent 4s analyzing
+  0s source_gen:combining_builder on 35 inputs; integration_test/full_flow_test.dart
+  0s source_gen:combining_builder on 35 inputs: 18 skipped, 1 output, 16 no-op
+  Built with build_runner/aot in 21s; wrote 39 outputs.

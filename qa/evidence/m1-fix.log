@@ -1,0 +1,10 @@
+Computing fixes in mobile...
+Applying fixes...
+
+lib/core/storage/identity.dart
+  curly_braces_in_flow_control_structures - 1 fix
+
+lib/core/storage/repository.dart
+  curly_braces_in_flow_control_structures - 1 fix
+
+2 fixes made in 2 files.

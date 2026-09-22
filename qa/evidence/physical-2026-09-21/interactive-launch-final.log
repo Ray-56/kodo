@@ -1,0 +1,7 @@
+Starting: Intent { cmp=dev.example.kodo_app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: dev.example.kodo_app/.MainActivity
+TotalTime: 1852
+WaitTime: 1872
+Complete

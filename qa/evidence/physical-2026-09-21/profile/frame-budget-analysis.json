@@ -1,0 +1,26 @@
+{
+  "60": {
+    "frame_build_times": {
+      "over_budget_frames": 23,
+      "percent": 1.64,
+      "p95_ms": 10.292
+    },
+    "frame_rasterizer_times": {
+      "over_budget_frames": 31,
+      "percent": 2.21,
+      "p95_ms": 7.778
+    }
+  },
+  "120": {
+    "frame_build_times": {
+      "over_budget_frames": 115,
+      "percent": 8.2,
+      "p95_ms": 10.292
+    },
+    "frame_rasterizer_times": {
+      "over_budget_frames": 50,
+      "percent": 3.57,
+      "p95_ms": 7.778
+    }
+  }
+}

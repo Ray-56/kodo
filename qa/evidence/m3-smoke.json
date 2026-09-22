@@ -1,0 +1,150 @@
+{
+  "scope": "real API smoke test",
+  "base_url": "http://127.0.0.1:8080",
+  "passed": true,
+  "elapsed_seconds": 0.04,
+  "checks": [
+    {
+      "test": "health ready",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "unauthorized snapshot",
+      "status": "passed",
+      "http_status": 401
+    },
+    {
+      "test": "register temporary namespace",
+      "status": "passed",
+      "http_status": 201
+    },
+    {
+      "test": "register temporary namespace",
+      "status": "passed",
+      "http_status": 201
+    },
+    {
+      "test": "registration retry",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "registration credential mismatch",
+      "status": "passed",
+      "http_status": 401
+    },
+    {
+      "test": "create project",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "add 20",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "add 10",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "replay entry",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "same identity changed body",
+      "status": "passed",
+      "http_status": 409
+    },
+    {
+      "test": "sequence gap",
+      "status": "passed",
+      "http_status": 409
+    },
+    {
+      "test": "void exact entry",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "repeated void no extra effect",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "archive project",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "replay before archived-state validation",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "no new entry on archived project",
+      "status": "passed",
+      "http_status": 422
+    },
+    {
+      "test": "cross namespace project reference",
+      "status": "passed",
+      "http_status": 422
+    },
+    {
+      "test": "empty isolated namespace",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "restore project after rejected seq",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "locked unit",
+      "status": "passed",
+      "http_status": 422
+    },
+    {
+      "test": "date consistency",
+      "status": "passed",
+      "http_status": 422
+    },
+    {
+      "test": "consistent server snapshot",
+      "status": "passed",
+      "http_status": 200
+    },
+    {
+      "test": "delete all server data",
+      "status": "passed",
+      "http_status": 204
+    },
+    {
+      "test": "repeat deletion",
+      "status": "passed",
+      "http_status": 204
+    },
+    {
+      "test": "late operation cannot revive data",
+      "status": "passed",
+      "http_status": 410
+    },
+    {
+      "test": "revoked snapshot rejected",
+      "status": "passed",
+      "http_status": 410
+    },
+    {
+      "test": "revoked registration rejected",
+      "status": "passed",
+      "http_status": 410
+    }
+  ],
+  "error": null,
+  "cleanup_confirmed": true
+}

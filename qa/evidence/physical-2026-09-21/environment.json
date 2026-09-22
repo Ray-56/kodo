@@ -1,0 +1,18 @@
+{
+  "ro.product.manufacturer": "Xiaomi",
+  "ro.product.model": "23127PN0CC",
+  "ro.product.device": "houji",
+  "ro.build.version.release": "16",
+  "ro.build.version.sdk": "36",
+  "ro.build.version.security_patch": "2026-08-01",
+  "ro.soc.model": "SM8650",
+  "screen": "Physical size: 1200x2670",
+  "density": "Physical density: 480",
+  "font_scale": "1.0",
+  "configured_peak_refresh_hz": "120",
+  "qa_package": "dev.example.kodo_app.qa",
+  "host": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0\nBuildVersion:\t\t26A428\n",
+  "flutter": "3.41.4",
+  "dart": "3.11.1",
+  "java": "17.0.19"
+}

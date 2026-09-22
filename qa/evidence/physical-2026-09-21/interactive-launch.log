@@ -1,0 +1,3 @@
+Starting: Intent { cmp=dev.example.kodo_app/.MainActivity }
+Error type 3
+Error: Activity class {dev.example.kodo_app/dev.example.kodo_app.MainActivity} does not exist.

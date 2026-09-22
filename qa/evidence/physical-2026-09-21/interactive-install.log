@@ -1,0 +1,3 @@
+Performing Streamed Install
+adb: failed to install apps/mobile/build/app/outputs/flutter-apk/app-debug.apk: Failure [INSTALL_FAILED_USER_RESTRICTED: Install canceled by user]
+

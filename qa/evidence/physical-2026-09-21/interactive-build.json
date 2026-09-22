@@ -1,0 +1,11 @@
+{
+  "application_id": "dev.example.kodo_app",
+  "build_mode": "debug",
+  "target": "lib/main.dart",
+  "api_base_url": "http://127.0.0.1:8083",
+  "apk_sha256": "7e20b292244288119a3ba34780743ce5dc5177567edf9d1518f81d0885da5b3d",
+  "install_result": "Success",
+  "first_launch": "empty native home, no demo seed",
+  "qa_package_removed": true,
+  "cloud_mirror_default": false
+}

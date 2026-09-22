@@ -1,0 +1,10 @@
+Computing fixes in mobile...
+Applying fixes...
+
+lib/core/sync/worker.dart
+  curly_braces_in_flow_control_structures - 5 fixes
+
+lib/features/projects/screens.dart
+  curly_braces_in_flow_control_structures - 3 fixes
+
+8 fixes made in 2 files.

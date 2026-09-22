@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "exported_at_utc_ms": 1789120800000,
+  "source": "local",
+  "projects": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "name": "俯卧撑",
+      "unit": "个",
+      "icon_key": "dumbbell",
+      "quick_amount": 10,
+      "archived": false,
+      "created_at_utc_ms": 1788228000000,
+      "updated_at_utc_ms": 1788228000000
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "name": "阅读",
+      "unit": "页",
+      "icon_key": "book",
+      "quick_amount": 5,
+      "archived": false,
+      "created_at_utc_ms": 1788228000000,
+      "updated_at_utc_ms": 1788228000000
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "name": "冥想",
+      "unit": "分钟",
+      "icon_key": "leaf",
+      "quick_amount": 5,
+      "archived": false,
+      "created_at_utc_ms": 1788228000000,
+      "updated_at_utc_ms": 1788228000000
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000004",
+      "name": "练习代码",
+      "unit": "题",
+      "icon_key": "code",
+      "quick_amount": 1,
+      "archived": false,
+      "created_at_utc_ms": 1788228000000,
+      "updated_at_utc_ms": 1788228000000
+    }
+  ],
+  "entries": [
+    {
+      "id": "00000000-0000-4000-8000-000000000065",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 20,
+      "occurred_at_utc_ms": 1789085520000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000066",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 10,
+      "occurred_at_utc_ms": 1789101000000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000067",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 12,
+      "occurred_at_utc_ms": 1789119900000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000068",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 10,
+      "occurred_at_utc_ms": 1789119960000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": 1789128000000
+    },
+    {
+      "id": "00000000-0000-4000-8000-00000000006e",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 20,
+      "occurred_at_utc_ms": 1789005600000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-10",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-00000000006f",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 35,
+      "occurred_at_utc_ms": 1788919200000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-09",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000070",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 28,
+      "occurred_at_utc_ms": 1788832800000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-08",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000071",
+      "project_id": "00000000-0000-4000-8000-000000000001",
+      "amount": 18,
+      "occurred_at_utc_ms": 1788746400000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-07",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-0000000000c9",
+      "project_id": "00000000-0000-4000-8000-000000000002",
+      "amount": 12,
+      "occurred_at_utc_ms": 1789092000000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-0000000000ca",
+      "project_id": "00000000-0000-4000-8000-000000000002",
+      "amount": 8,
+      "occurred_at_utc_ms": 1789005600000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-10",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-0000000000cb",
+      "project_id": "00000000-0000-4000-8000-000000000002",
+      "amount": 5,
+      "occurred_at_utc_ms": 1788746400000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-07",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-00000000012d",
+      "project_id": "00000000-0000-4000-8000-000000000003",
+      "amount": 15,
+      "occurred_at_utc_ms": 1789092000000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-00000000012e",
+      "project_id": "00000000-0000-4000-8000-000000000003",
+      "amount": 10,
+      "occurred_at_utc_ms": 1788919200000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-09",
+      "voided_at_utc_ms": null
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000191",
+      "project_id": "00000000-0000-4000-8000-000000000004",
+      "amount": 3,
+      "occurred_at_utc_ms": 1789092000000,
+      "utc_offset_minutes": 480,
+      "local_date": "2026-09-11",
+      "voided_at_utc_ms": null
+    }
+  ]
+}

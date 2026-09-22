@@ -1,0 +1,2 @@
+Consistent SQLite backup created; integrity_check=ok. Protect this file as personal activity data.
+PASS online WAL backup -> independent Rust process -> identical authorized snapshot

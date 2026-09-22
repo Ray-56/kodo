@@ -1,0 +1,5 @@
+{
+  "remote_delete_committed": true,
+  "local_stage_before_force_stop": "sending",
+  "local_amount_before_force_stop": 10
+}

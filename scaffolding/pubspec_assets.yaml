@@ -1,0 +1,6 @@
+# Merge into apps/mobile/pubspec.yaml after copying design/assets -> apps/mobile/assets.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/
+    - assets/icons/

@@ -1,0 +1,12 @@
+Analyzing mobile...                                             
+
+   info • Statements in an if should be enclosed in a block • lib/core/sync/worker.dart:137:7 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/core/sync/worker.dart:339:7 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/core/sync/worker.dart:360:11 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/core/sync/worker.dart:371:11 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/core/sync/worker.dart:376:9 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/features/projects/screens.dart:1014:33 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/features/projects/screens.dart:1086:27 • curly_braces_in_flow_control_structures
+   info • Statements in an if should be enclosed in a block • lib/features/projects/screens.dart:1094:27 • curly_braces_in_flow_control_structures
+
+8 issues found. (ran in 3.4s)

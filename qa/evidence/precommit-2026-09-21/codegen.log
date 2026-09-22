@@ -1,0 +1,8 @@
+  0s drift_dev:preparing_builder on 1 input; lib/core/storage/schema.drift
+  0s drift_dev:preparing_builder on 1 input: 1 same
+  0s drift_dev on 83 inputs; integration_test/deletion_restart_test.dart
+  4s drift_dev on 83 inputs: 1 output; spent 3s analyzing; integration_test/full_flow_test.dart
+  4s drift_dev on 83 inputs: 33 skipped, 13 output, 22 same, 15 no-op; spent 3s analyzing
+  0s source_gen:combining_builder on 41 inputs; integration_test/deletion_restart_test.dart
+  0s source_gen:combining_builder on 41 inputs: 37 skipped, 1 output, 3 no-op
+  Built with build_runner/aot in 5s; wrote 38 outputs.

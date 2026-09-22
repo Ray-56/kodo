@@ -1,0 +1,21 @@
+# Template: move to repository root after Codex implements services/api/Dockerfile.
+# This file does NOT start a working app in the handoff package.
+services:
+  api:
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile
+    environment:
+      KODO_BIND: 0.0.0.0:8080
+      KODO_DATABASE_URL: sqlite:///data/kodo.sqlite
+      RUST_LOG: info
+      KODO_REGISTER_PER_IP_PER_HOUR: 10
+      KODO_OPERATIONS_PER_INSTALLATION_PER_MINUTE: 120
+      KODO_OPERATION_BURST: 60
+      KODO_SNAPSHOTS_PER_INSTALLATION_PER_MINUTE: 6
+    ports:
+      - "${KODO_HOST_IP:-127.0.0.1}:8080:8080"
+    volumes:
+      - ./var/kodo:/data
+    restart: unless-stopped
+    stop_grace_period: 20s

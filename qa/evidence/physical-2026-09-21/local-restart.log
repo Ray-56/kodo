@@ -1,0 +1,272 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (108.0.0 available)
+  analyzer 10.0.1 (14.4.0 available)
+  build 4.0.7 (4.0.11 available)
+  build_runner 2.15.1 (2.16.1 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  dart_style 3.1.7 (3.1.13 available)
+  drift 2.34.0 (2.35.0 available)
+  drift_dev 2.34.0 (2.35.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  flutter_secure_storage 10.3.4 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  native_toolchain_c 0.19.2 (0.19.5 available)
+  objective_c 9.5.0 (9.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  share_plus 12.0.2 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  source_gen 4.2.4 (4.3.0 available)
+  sqlite3 3.5.2 (3.6.0 available)
+  sqlparser 0.44.5 (0.45.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.30.0 (1.32.0 available)
+  test_api 0.7.10 (0.7.14 available)
+  test_core 0.6.16 (0.6.20 available)
+  vector_math 2.2.0 (2.4.2 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+36 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Installing build/app/outputs/flutter-apk/app-debug.apk...           6.0s
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:54213/fLgcR5bPixc=/
+VMServiceFlutterDriver: Isolate found with number: 3153259856225155
+VMServiceFlutterDriver: Isolate 3153259856225155 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter (24519): 00:00 +0: M1 real device UI create → quick 10 → committed
+VMServiceFlutterDriver: Connected to Flutter application.
+D/VRI[MainActivity](24519): vri.Setup new sync=wmsSync-VRI[MainActivity]#1
+D/VRI[MainActivity](24519): vri.reportDrawFinished 0 0 Rect(0, 0 - 1200, 2670)
+I/NativeTurboSchedManager(24519): Load libmiui_runtime
+I/HandWritingStubImpl(24519): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+D/InsetsController(24519): hide(ime(), fromIme=false)
+I/ImeTracker(24519): dev.example.kodo_app.qa:69a91068: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+D/FlutterSecureStorage(24519): No data found in EncryptedSharedPreferences.
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2d0cfb8) locale list changing from [] to [en]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2d058f8) locale list changing from [] to [en-US]
+D/VRI[MainActivity](24519): getMiuiFreeformStackInfo mTmpFrames.miuiFreeFormStackInfo: null
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+W/InsetsSource(24519): Has no intersection or mTmpFrame.height(), return Insets.NONE mTmpFrame.height() =0 hasIntersection =false
+D/FlutterJNI(24519): Sending viewport metrics to the engine.
+D/BufferQueueProducer(24519): [219e232 SurfaceView[dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity]#1(BLAST Consumer)1](id:5fc700000001,api:1,p:24519,c:24519) disconnect: api 1 (caller=24519)
+E/qdgralloc(24519): GetGpuPixelFormat: No map for format: 0x3b
+E/AdrenoUtils(24519): <validate_memory_layout_input_params:1805>: Unknown Format 0
+E/AdrenoUtils(24519): <adreno_init_memory_layout:4055>: Memory Layout input parameter validation failed!
+W/qdgralloc(24519): GetGpuResourceSizeAndDimensions Graphics metadata init failed
+E/Gralloc4(24519): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(24519): Failed to allocate (4 x 4) layerCount 1 format 59 usage 300: 2
+E/AHardwareBuffer(24519): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+E/qdgralloc(24519): GetGpuPixelFormat: No map for format: 0x3b
+E/AdrenoUtils(24519): <validate_memory_layout_input_params:1805>: Unknown Format 0
+E/AdrenoUtils(24519): <adreno_init_memory_layout:4055>: Memory Layout input parameter validation failed!
+W/qdgralloc(24519): GetGpuResourceSizeAndDimensions Graphics metadata init failed
+E/Gralloc4(24519): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(24519): Failed to allocate (4 x 4) layerCount 1 format 59 usage 300: 2
+E/AHardwareBuffer(24519): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+D/ProfileInstaller(24519): Installing profile for dev.example.kodo_app.qa
+I/ple.kodo_app.qa(24519): DynamicFPS DF top: dev.example.kodo_app.qa : 0.000000
+I/ple.kodo_app.qa(24519): DF dev.example.kodo_app.qa Support DynamicFPS.
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2da7478) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2d83ed8) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2d80cd8) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2dae4f8) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2d7ed98) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2dafad8) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2da9d18) locale list changing from [] to [en-US]
+I/ple.kodo_app.qa(24519): AssetManager2(0xb4000070d2da99f8) locale list changing from [] to [en-US]
+I/ImeTracker(24519): dev.example.kodo_app.qa:a26d526f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+I/HandWritingStubImpl(24519): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+D/InsetsController(24519): Setting requestedVisibleTypes to -1 (was -9)
+I/ImeTracker(24519): dev.example.kodo_app.qa:b88d0f80: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+I/ImeTracker(24519): dev.example.kodo_app.qa:b88d0f80: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+I/ImeTracker(24519): dev.example.kodo_app.qa:9af62762: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+I/ImeTracker(24519): dev.example.kodo_app.qa:9af62762: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker(24519): dev.example.kodo_app.qa:56ad4dbe: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+I/ImeTracker(24519): dev.example.kodo_app.qa:56ad4dbe: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+I/ImeTracker(24519): dev.example.kodo_app.qa:d0695708: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+I/ImeTracker(24519): dev.example.kodo_app.qa:d0695708: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker(24519): dev.example.kodo_app.qa:e1e37545: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController(24519): show(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity  show: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.show:1321 android.view.inputmethod.InputMethodManager.showSoftInput:2587 android.view.inputmethod.InputMethodManager.showSoftInput:2471 android.view.inputmethod.InputMethodManager.showSoftInput:2463 
+I/ImeTracker(24519): dev.example.kodo_app.qa:e1e37545: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+I/HandWritingStubImpl(24519): getCurrentKeyboardType: 1
+I/ImeTracker(24519): dev.example.kodo_app.qa:99803991: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController(24519): hide(ime(), fromIme=false)
+D/InsetsController(24519): dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity hide: ime android.view.InsetsController@59a381f android.view.InsetsController.applyAnimation:2241 android.view.InsetsController.applyAnimation:2212 android.view.InsetsController.hide:1439 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2810 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2740 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2701 
+D/InsetsController(24519): Setting requestedVisibleTypes to -9 (was -1)
+D/CompatChangeReporter(24519): Compat change id reported: 395521150; UID 10337; state: ENABLED
+W/RemoteInputConnectionImpl(24519): getSelectedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getSelectedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getSelectedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/RemoteInputConnectionImpl(24519): getExtractedText on inactive InputConnection
+W/WindowOnBackDispatcher(24519): sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@36880697 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@561e1ed
+D/libEGL  (24519): Post task 1
+D/libEGL  (24519): Worker thread start 480587838464
+D/libEGL  (24519): Run task 1
+W/WindowOnBackDispatcher(24519): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@93dc041
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/VibrateUtils(24519): 5,2,true
+I/ple.kodo_app.qa(24519): ProcessProfilingInfo new_methods=0 is saved saved_to_disk=1
+D/BufferQueueProducer(24519): [ImageReader-1200x2670f1m3-24519-0](id:5fc700000002,api:1,p:24519,c:24519) disconnect: api 1 (caller=24519)
+W/ple.kodo_app.qa(24519): Binder 0xb400007082cd9f60 destroyed after setInheritRt before being parceled.
+W/qdgralloc(24519): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(24519): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(24519): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(24519): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(24519): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(24519): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(24519): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(24519): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(24519): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(24519): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/qdgralloc(24519): getInterlacedFlag: getMetaData returned 3, defaulting to interlaced_flag = 0
+W/ple.kodo_app.qa(24519): Binder 0xb400007082cda080 destroyed after setInheritRt before being parceled.
+D/BufferQueueConsumer(24519): [ImageReader-1200x2670f1m3-24519-0](id:5fc700000002,api:0,p:-1,c:24519) disconnect: caller 24519
+I/flutter (24519): 00:12 +1: (tearDownAll)
+I/ple.kodo_app.qa(24519): This is non sticky GC, maxfree is 33554432 minfree is 8388608
+W/FinalizerDaemon(24519): type=1400 audit(0.0:45457): avc:  denied  { getopt } for  path="/dev/socket/usap_pool_primary" scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:r:zygote:s0 tclass=unix_stream_socket permissive=0 app=dev.example.kodo_app.qa
+I/flutter (24519): 00:12 +2: All tests passed!
+All tests passed.
+D/FlutterJNI(30581): Beginning load of flutter...
+D/FlutterJNI(30581): flutter (null) was loaded normally!
+I/flutter (30581): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (30581): The Dart VM service is listening on http://127.0.0.1:33483/-pFaOiYa9D8=/
+D/FlutterRenderer(30581): Width is zero. 0,0
+I/flutter (30581): 00:00 +0: M1 real device UI create → quick 10 → committed
+D/FlutterRenderer(30581): Width is zero. 0,0
+D/FlutterJNI(30581): Sending viewport metrics to the engine.
+D/FlutterJNI(30581): Sending viewport metrics to the engine.
+E/FlutterSecureStorage(30581): EncryptedSharedPreferences initialization failed. Falling back to custom ciphers.
+E/FlutterSecureStorage(30581): java.lang.SecurityException: Could not decrypt key. decryption failed
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:561)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.getAll(EncryptedSharedPreferences.java:378)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.hasDataInEncryptedSharedPreferences(FlutterSecureStorage.java:1380)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.continueInitialize(FlutterSecureStorage.java:193)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.-$$Nest$mcontinueInitialize(Unknown Source:0)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:161)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.recoverBiometricNamespaceKeyIfNeeded(FlutterSecureStorage.java:303)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.initialize(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run(FlutterSecureStoragePlugin.java:173)
+E/FlutterSecureStorage(30581): 	at android.os.Handler.handleCallback(Handler.java:1029)
+E/FlutterSecureStorage(30581): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/FlutterSecureStorage(30581): 	at android.os.Looper.loopOnce(Looper.java:274)
+E/FlutterSecureStorage(30581): 	at android.os.Looper.loop(Looper.java:369)
+E/FlutterSecureStorage(30581): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/FlutterSecureStorage(30581): Caused by: java.security.GeneralSecurityException: decryption failed
+E/FlutterSecureStorage(30581): 	at com.google.crypto.tink.daead.internal.WrappedDeterministicAead$WrappedDeterministicAeadImpl.decryptDeterministically(WrappedDeterministicAead.java:104)
+E/FlutterSecureStorage(30581): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:552)
+E/FlutterSecureStorage(30581): 	... 14 more
+D/FlutterJNI(30581): Sending viewport metrics to the engine.
+I/flutter (30581): KODO_RESTART_PASSED
+I/flutter (30581): 00:02 +1: (tearDownAll)
+I/flutter (30581): 00:02 +2: All tests passed!
+D/FlutterJNI(17459): Beginning load of flutter...
+D/FlutterJNI(17459): flutter (null) was loaded normally!
+I/flutter (17459): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (17459): The Dart VM service is listening on http://127.0.0.1:45081/5xGtfBG3qd4=/
+D/FlutterRenderer(17459): Width is zero. 0,0
+I/flutter (17459): 00:00 +0: M1 real device UI create → quick 10 → committed
+D/FlutterRenderer(17459): Width is zero. 0,0
+D/FlutterJNI(17459): Sending viewport metrics to the engine.
+D/FlutterJNI(17459): Sending viewport metrics to the engine.
+E/FlutterSecureStorage(17459): EncryptedSharedPreferences initialization failed. Falling back to custom ciphers.
+E/FlutterSecureStorage(17459): java.lang.SecurityException: Could not decrypt key. decryption failed
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:561)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.getAll(EncryptedSharedPreferences.java:378)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.hasDataInEncryptedSharedPreferences(FlutterSecureStorage.java:1380)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.continueInitialize(FlutterSecureStorage.java:193)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.-$$Nest$mcontinueInitialize(Unknown Source:0)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:161)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage$1.onSuccess(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.recoverBiometricNamespaceKeyIfNeeded(FlutterSecureStorage.java:303)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStorage.initialize(FlutterSecureStorage.java:158)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.FlutterSecureStoragePlugin$MethodRunner.run(FlutterSecureStoragePlugin.java:173)
+E/FlutterSecureStorage(17459): 	at android.os.Handler.handleCallback(Handler.java:1029)
+E/FlutterSecureStorage(17459): 	at android.os.Handler.dispatchMessage(Handler.java:107)
+E/FlutterSecureStorage(17459): 	at android.os.Looper.loopOnce(Looper.java:274)
+E/FlutterSecureStorage(17459): 	at android.os.Looper.loop(Looper.java:369)
+E/FlutterSecureStorage(17459): 	at android.os.HandlerThread.run(HandlerThread.java:85)
+E/FlutterSecureStorage(17459): Caused by: java.security.GeneralSecurityException: decryption failed
+E/FlutterSecureStorage(17459): 	at com.google.crypto.tink.daead.internal.WrappedDeterministicAead$WrappedDeterministicAeadImpl.decryptDeterministically(WrappedDeterministicAead.java:104)
+E/FlutterSecureStorage(17459): 	at com.it_nomads.fluttersecurestorage.crypto.EncryptedSharedPreferences.decryptKey(EncryptedSharedPreferences.java:552)
+E/FlutterSecureStorage(17459): 	... 14 more
+D/FlutterJNI(17459): Sending viewport metrics to the engine.
+I/flutter (17459): KODO_RESTART_PASSED
+I/flutter (17459): 00:02 +1: (tearDownAll)
+I/flutter (17459): 00:02 +2: All tests passed!
+PASS Android same-install restart: [{"same_apk_force_stop_relaunch": true, "host_launch_to_verified_ui_ms": 3044.88, "am_start": "Starting: Intent { cmp=dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.example.kodo_app.qa/dev.example.kodo_app.MainActivity\nTotalTime: 2173\nWaitTime: 2177\nComplete", "before": {"projects": 1, "entries": 1, "amount": 10, "pending": 2}, "after": {"projects": 1, "entries": 1, "amount": 10, "pending": 2}}]

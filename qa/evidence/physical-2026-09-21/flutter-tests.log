@@ -1,0 +1,77 @@
+00:00 +0: loading /Users/ray/developer/github/kodo/apps/mobile/test/platform_store_test.dart
+00:00 +0: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P01/P02 first launch empty; create, commit and reopen file retains 10
+WARNING (drift): It looks like you've created the database class KodoDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$KodoDatabase (package:kodo_app/core/storage/database.g.dart:1915:37)
+#4      new KodoDatabase (package:kodo_app/core/storage/database.dart)
+#5      new KodoDatabase.file (package:kodo_app/core/storage/database.dart:10:7)
+#6      main.<anonymous closure> (file:///Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart:28:31)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:00 +1: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P01/P02 first launch empty; create, commit and reopen file retains 10
+00:00 +2: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P01/P02 first launch empty; create, commit and reopen file retains 10
+00:00 +3: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P01/P02 first launch empty; create, commit and reopen file retains 10
+WARNING (drift): It looks like you've created the database class KodoDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$KodoDatabase (package:kodo_app/core/storage/database.g.dart:1915:37)
+#4      new KodoDatabase (package:kodo_app/core/storage/database.dart)
+#5      new KodoDatabase.file (package:kodo_app/core/storage/database.dart:10:7)
+#6      main.<anonymous closure> (file:///Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart:39:27)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#9      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:00 +4: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S14 merged wakeups keep one sender/in-flight
+00:00 +5: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S14 merged wakeups keep one sender/in-flight
+00:00 +6: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S14 merged wakeups keep one sender/in-flight
+00:00 +7: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S14 merged wakeups keep one sender/in-flight
+00:00 +8: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +9: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +10: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +11: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +12: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +13: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +14: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +15: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +16: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +17: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P09 100 accepted commands create 100 distinct entries and FIFO bodies
+00:00 +18: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S16 delete waits for in-flight operation then revokes
+00:00 +19: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P10 domain, outbox and seq rollback together on failure
+00:00 +20: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:00 +21: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:00 +22: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:00 +23: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:00 +24: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: file queue recovers after process-equivalent reopen
+00:01 +25: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P21/P22 midnight and travel preserve captured dates
+00:01 +26: /Users/ray/developer/github/kodo/apps/mobile/test/sync_test.dart: S19 Retry-After and foreground/consent pause preserve queue
+00:01 +27: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P23 DST captured offsets stay attached to original records
+00:01 +28: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P24 same-millisecond cursor 50+5 has no gap or duplicate
+00:01 +29: /Users/ray/developer/github/kodo/apps/mobile/test/repository_test.dart: P25 export includes void markers and excludes credentials/outbox
+00:01 +30: /Users/ray/developer/github/kodo/apps/mobile/test/real_sync_test.dart: M4 real Rust: offline 10+12−12+20, lost responses, reopen, mirror 30, archive, export, deletion restart
+00:01 +31: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: (setUpAll)
+00:01 +31: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: native layouts 390.0x844.0 at 100.0% text
+00:02 +32: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: native layouts 390.0x844.0 at 200.0% text
+00:02 +33: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: native layouts 360.0x800.0 at 100.0% text
+00:02 +34: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: native layouts 360.0x800.0 at 200.0% text
+00:02 +35: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: P06 quick hit target records without detail navigation; P07 draft only
+00:02 +36: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: P21 visible today refreshes across midnight
+00:03 +37: /Users/ray/developer/github/kodo/apps/mobile/test/widget_test.dart: (tearDownAll)
+00:03 +37: All tests passed!

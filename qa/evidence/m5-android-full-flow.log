@@ -1,0 +1,175 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (108.0.0 available)
+  analyzer 10.0.1 (14.4.0 available)
+  build 4.0.7 (4.0.11 available)
+  build_runner 2.15.1 (2.16.1 available)
+  cli_util 0.4.2 (0.6.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  dart_style 3.1.7 (3.1.13 available)
+  drift 2.34.0 (2.35.0 available)
+  drift_dev 2.34.0 (2.35.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  flutter_secure_storage 10.3.4 (11.2.0 available)
+  flutter_secure_storage_darwin 0.3.2 (0.4.3 available)
+  flutter_secure_storage_windows 4.1.0 (4.2.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  native_toolchain_c 0.19.2 (0.19.5 available)
+  objective_c 9.5.0 (9.6.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  share_plus 12.0.2 (13.3.0 available)
+  share_plus_platform_interface 6.1.0 (7.2.0 available)
+  source_gen 4.2.4 (4.3.0 available)
+  sqlite3 3.5.2 (3.6.0 available)
+  sqlparser 0.44.5 (0.45.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.30.0 (1.32.0 available)
+  test_api 0.7.10 (0.7.14 available)
+  test_core 0.6.16 (0.6.20 available)
+  vector_math 2.2.0 (2.4.2 available)
+  win32 5.15.0 (6.4.0 available)
+Got dependencies!
+36 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                             12.3s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          507ms
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+I/xample.kodo_app( 2390): Compiler allocated 5111KB to compile void android.view.ViewRootImpl.performTraversals()
+D/WindowLayoutComponentImpl( 2390): Register WindowLayoutInfoListener on Context=dev.example.kodo_app.MainActivity@de0193, of which baseContext=android.app.ContextImpl@feb9985
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:62977/zmUg_8syYj4=/
+VMServiceFlutterDriver: Isolate found with number: 3496823684648523
+VMServiceFlutterDriver: Isolate 3496823684648523 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 2390): 00:00 +0: M5 full native UI and real Rust mirror
+VMServiceFlutterDriver: Connected to Flutter application.
+D/InsetsController( 2390): hide(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:858d8eae: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/FlutterSecureStorage( 2390): No data found in EncryptedSharedPreferences.
+V/Configuration( 2390): Updating configuration, locales updated from [en_US] to [en]
+I/xample.kodo_app( 2390): AssetManager2(0xb4000077f10b0158) locale list changing from [] to [en]
+V/Configuration( 2390): Updating configuration, locales updated from [en] to [en_US]
+I/xample.kodo_app( 2390): AssetManager2(0xb4000077f10abfb8) locale list changing from [] to [en-US]
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+I/ImeTracker( 2390): dev.example.kodo_app:9f3be409: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+D/InsetsController( 2390): Setting requestedVisibleTypes to -1 (was -9)
+I/ImeTracker( 2390): dev.example.kodo_app:2bcebd85: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:2bcebd85: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker( 2390): dev.example.kodo_app:ce32d97c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:ce32d97c: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker( 2390): dev.example.kodo_app:4251054d: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:4251054d: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+W/RemoteInputConnectionImpl( 2390): requestCursorUpdates on inactive InputConnection
+I/ImeTracker( 2390): dev.example.kodo_app:1137be9e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:1137be9e: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+I/ImeTracker( 2390): dev.example.kodo_app:62e1dd85: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:62e1dd85: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+I/ImeTracker( 2390): dev.example.kodo_app:cce59db9: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 2390): hide(ime(), fromIme=false)
+D/InsetsController( 2390): Setting requestedVisibleTypes to -9 (was -1)
+D/CompatChangeReporter( 2390): Compat change id reported: 395521150; UID 10151; state: ENABLED
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getSelectedText on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getSelectedText on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): requestCursorUpdates on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 2390): getTextBeforeCursor on inactive InputConnection
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@172860531 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@9e0406a
+I/ImeTracker( 2390): system_server:75f684c8: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@17134ba
+D/ProfileInstaller( 2390): Installing profile for dev.example.kodo_app
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+I/ImeTracker( 2390): dev.example.kodo_app:547123b4: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+D/InsetsController( 2390): Setting requestedVisibleTypes to -1 (was -9)
+I/ImeTracker( 2390): dev.example.kodo_app:83d70b45: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 2390): show(ime(), fromIme=false)
+I/ImeTracker( 2390): dev.example.kodo_app:83d70b45: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor( 2390): The input method toggled cursor monitoring on
+W/InteractionJankMonitor( 2390): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=dev.example.kodo_app
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+I/ImeTracker( 2390): dev.example.kodo_app:547123b4: onShown
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 30936, 33469602, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed App frame:UNKNOWN: 3, 30964, 70469978, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:UNKNOWN: 3, 30964, 70469978, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 30987, 28352105, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31001, 65693189, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31023, 60974523, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31046, 79415025, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31061, 92947067, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed App frame:UNKNOWN: 3, 31076, 105148527, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:UNKNOWN: 3, 31076, 105148527, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31115, 26257406, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@dev.example.kodo_app>
+V/PerfettoTrigger( 2390): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+I/ImeTracker( 2390): dev.example.kodo_app:b44e84af: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 2390): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=ImeCallback=ImeOnBackInvokedCallback@172860531 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@123ba64
+D/InsetsController( 2390): Setting requestedVisibleTypes to -9 (was -1)
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+D/FlutterJNI( 2390): Sending viewport metrics to the engine.
+I/ImeTracker( 2390): system_server:40c47560: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+W/FrameTracker( 2390): Missed App frame:UNKNOWN: 3, 31275, 34148708, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:UNKNOWN: 3, 31275, 34148708, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31289, 24296667, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31303, 65354959, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31311, 56389918, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31319, 81530128, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31335, 55552129, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31343, 81465589, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31358, 72501256, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31367, 64886050, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31397, 89342343, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+W/FrameTracker( 2390): Missed SF frame:JANK_COMPOSER, 31427, 89754511, CUJ=J<IME_INSETS_HIDE_ANIMATION::1@1@dev.example.kodo_app>
+V/PerfettoTrigger( 2390): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-81
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@17134ba
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@17134ba
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@17134ba
+W/WindowOnBackDispatcher( 2390): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@17134ba
+I/flutter ( 2390): 00:25 +1: (tearDownAll)
+I/flutter ( 2390): 00:25 +2: All tests passed!
+All tests passed.
